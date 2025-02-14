@@ -1,72 +1,87 @@
 import { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
-import { Icon } from 'leaflet';
+import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import L from 'leaflet'; // Asegúrate de que Leaflet esté importado
-import 'leaflet-routing-machine'; // Importar Routing Machine
-import hombre from './assets/hombre.png'; // Ruta correcta a tu imagen
+import 'leaflet-routing-machine';
+import hombre from './assets/hombre.png';
 
-// Usamos un icono para la ubicación del usuario
-const userIcon = new Icon({
+// Icono del usuario
+const userIcon = new L.Icon({
   iconUrl: hombre,
   iconSize: [30, 30],
   iconAnchor: [15, 30],
 });
 
-// Componente para actualizar el mapa cuando la ubicación cambia
-function LocationSetter({ location, zoom }) {
-  const map = useMap(); // Usamos el hook de React-Leaflet para acceder al mapa
+function Routing({ userLocation, destination }) {
+  const map = useMap();
 
   useEffect(() => {
-    // Si la ubicación cambia, ajustamos el centro y el zoom
-    map.setView(location, zoom);
-  }, [location, zoom, map]);
+    if (!map || !userLocation || !destination) return;
+
+    // Eliminar rutas previas antes de dibujar una nueva
+    map.eachLayer((layer) => {
+      if (layer._route) map.removeLayer(layer);
+    });
+
+    const control = L.Routing.control({
+      waypoints: [L.latLng(userLocation), L.latLng(destination)],
+      routeWhileDragging: true,
+      createMarker: () => null, // No crea marcadores extra
+    }).addTo(map);
+
+    // Guardamos la referencia de la ruta para poder eliminarla después
+    control.getPlan().options.waypoints[0]._route = true;
+
+    return () => map.removeControl(control);
+  }, [userLocation, destination, map]);
 
   return null;
 }
 
 export default function MapView() {
-  const [userLocation, setUserLocation] = useState([41.1189, 1.2445]);
-  const [userLocationError, setUserLocationError] = useState(null);
-  const [zoom, setZoom] = useState(13); // Zoom inicial
+  const [userLocation, setUserLocation] = useState([41.1189, 1.2445]); // Posición inicial en Tarragona
+  const [destination, setDestination] = useState([41.1159, 1.2515]); // Punto de destino
+  const [watchingPosition, setWatchingPosition] = useState(false);
 
   useEffect(() => {
-    // Obtener la ubicación del usuario
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const { latitude, longitude } = position.coords;
-          setUserLocation([latitude, longitude]);
-          setZoom(16); // Ajustar el zoom al obtener la ubicación
-        },
-        (error) => {
-          setUserLocationError(error.message);
-        }
-      );
-    } else {
-      setUserLocationError("Geolocalización no es soportada en este navegador");
-    }
-  }, []); // Solo se ejecuta cuando el componente se monta
+    if (!watchingPosition) return;
+
+    const watchId = navigator.geolocation.watchPosition(
+      (position) => {
+        setUserLocation([position.coords.latitude, position.coords.longitude]);
+      },
+      (error) => console.error("Error obteniendo ubicación:", error),
+      { enableHighAccuracy: true }
+    );
+
+    return () => navigator.geolocation.clearWatch(watchId);
+  }, [watchingPosition]);
 
   return (
-    <div style={{ margin: 0, padding: 0, height: '100vh', width: '100vw', overflow: 'hidden' }}>
-      <MapContainer
-        center={userLocation}
-        zoom={zoom}
-        style={{ height: '100%', width: '100%' }}
-        whenCreated={(map) => map.invalidateSize()} // Ajustar tamaño del mapa cuando se cree
+    <div style={{ height: '100vh', width: '100vw' }}>
+      <button
+        style={{ position: 'absolute', top: 10, left: 10, zIndex: 1000 }}
+        onClick={() => setWatchingPosition(!watchingPosition)}
       >
+        {watchingPosition ? "Detener seguimiento" : "Start Route"}
+      </button>
+
+      <MapContainer center={userLocation} zoom={15} style={{ height: '100%', width: '100%' }}>
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         
-        <LocationSetter location={userLocation} zoom={zoom} /> {/* Actualizamos el mapa al cambiar la ubicación */}
+        {/* Marcador del usuario */}
+        <Marker position={userLocation} icon={userIcon}>
+          <Popup>Tú estás aquí</Popup>
+        </Marker>
 
-        {userLocation && (
-          <Marker position={userLocation} icon={userIcon}>
-            <Popup>Tu ubicación actual</Popup>
-          </Marker>
-        )}
+        {/* Marcador de destino */}
+        <Marker position={destination}>
+          <Popup>Destino</Popup>
+        </Marker>
+
+        {/* Dibujar la ruta */}
+        <Routing userLocation={userLocation} destination={destination} />
       </MapContainer>
-      {userLocationError && <div style={{ position: 'absolute', top: 20, left: 20, color: 'red' }}>Error: {userLocationError}</div>}
     </div>
   );
 }
