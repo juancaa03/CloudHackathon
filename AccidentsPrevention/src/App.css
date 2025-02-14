@@ -1,2 +1,5 @@
 
 
+.leaflet-routing-container {
+  display: none !important;
+}

@@ -4,7 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-routing-machine';
 import hombre from './assets/hombre.png';
-import destinationImage from './assets/destination.svg';
+import destinatioon from './assets/destination.svg';
 
 // Icono del usuario
 const userIcon = new L.Icon({
@@ -15,7 +15,7 @@ const userIcon = new L.Icon({
 
 // Icono del usuario
 const destinationIcon = new L.Icon({
-    iconUrl: destinationImage,
+    iconUrl: destinatioon,
     iconSize: [30, 30],
     iconAnchor: [15, 30],
   });
@@ -34,7 +34,12 @@ function Routing({ userLocation, destination }) {
     const control = L.Routing.control({
       waypoints: [L.latLng(userLocation), L.latLng(destination)],
       routeWhileDragging: true,
-      createMarker: () => null, // No crea marcadores extra
+      createMarker: () => null,
+      show: false,
+      addWaypoints: false,
+      lineOptions: {
+        styles: [{ color: '#007bff', weight: 6, opacity: 0.8 }],
+      },
     }).addTo(map);
 
     // Guardamos la referencia de la ruta para poder eliminarla después
@@ -47,8 +52,8 @@ function Routing({ userLocation, destination }) {
 }
 
 export default function MapView() {
-  const [userLocation, setUserLocation] = useState([41.1189, 1.2445]); // Posición inicial en Tarragona
-  const [destination, setDestination] = useState([41.1159, 1.2515]); // Punto de destino
+  const [userLocation, setUserLocation] = useState([41.1189, 1.2445]); // Tarragona
+  const [destination, setDestination] = useState([41.1159, 1.2515]); // Destino de prueba
   const [watchingPosition, setWatchingPosition] = useState(false);
 
   useEffect(() => {
@@ -68,13 +73,13 @@ export default function MapView() {
   return (
     <div style={{ height: '100vh', width: '100vw' }}>
       <button
-        style={{ position: 'absolute', top: 10, left: 10, zIndex: 1000 }}
+        style={{ position: 'absolute', top: 10, left: 10, zIndex: 1000, padding: '10px 15px', fontSize: '16px' }}
         onClick={() => setWatchingPosition(!watchingPosition)}
       >
-        {watchingPosition ? "Detener seguimiento" : "Start Route"}
+        {watchingPosition ? "Detener seguimiento" : "Iniciar seguimiento"}
       </button>
 
-      <MapContainer center={userLocation} zoom={15} style={{ height: '100%', width: '100%' }}>
+      <MapContainer center={userLocation} zoom={17} style={{ height: '100%', width: '100%' }}> 
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         
         {/* Marcador del usuario */}
