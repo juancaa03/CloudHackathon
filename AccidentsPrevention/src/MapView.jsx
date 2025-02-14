@@ -4,6 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-routing-machine';
 import hombre from './assets/hombre.png';
+import destinationImage from './assets/destination.svg';
 
 // Icono del usuario
 const userIcon = new L.Icon({
@@ -11,6 +12,13 @@ const userIcon = new L.Icon({
   iconSize: [30, 30],
   iconAnchor: [15, 30],
 });
+
+// Icono del usuario
+const destinationIcon = new L.Icon({
+    iconUrl: destinationImage,
+    iconSize: [30, 30],
+    iconAnchor: [15, 30],
+  });
 
 function Routing({ userLocation, destination }) {
   const map = useMap();
@@ -75,7 +83,7 @@ export default function MapView() {
         </Marker>
 
         {/* Marcador de destino */}
-        <Marker position={destination}>
+        <Marker position={destination} icon={destinationIcon}>
           <Popup>Destino</Popup>
         </Marker>
 
