@@ -1,14 +1,16 @@
 import { useState, useEffect } from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import { Icon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-// Icono personalizado para el marcador (opcional)
-import markerIconUrl from 'leaflet/dist/images/marker-icon.png';
+const userIcon = new Icon({
+  iconUrl: '/assets/hombreacolor.png'
+});
 
 export default function MapView() {
   const [userLocation, setUserLocation] = useState([41.1189, 1.2445]); // Coordenadas iniciales
   const [userLocationError, setUserLocationError] = useState(null);
+  const [zoom, setZoom] = useState(13); // Zoom inicial
 
   useEffect(() => {
     // Obtener la ubicación del usuario
@@ -18,6 +20,7 @@ export default function MapView() {
           // Si la ubicación se obtiene correctamente
           const { latitude, longitude } = position.coords;
           setUserLocation([latitude, longitude]);
+          setZoom(16); // Establecer un zoom mayor cuando se obtiene la ubicación
         },
         (error) => {
           // Si ocurre un error al obtener la ubicación
@@ -39,7 +42,7 @@ export default function MapView() {
       }}>
       <MapContainer 
         center={userLocation} 
-        zoom={13} 
+        zoom={zoom} 
         style={{ height: "100%", width: "100%" }} 
         whenCreated={map => map.invalidateSize()} // Ajustar tamaño del mapa al cargarse
       >
@@ -49,9 +52,8 @@ export default function MapView() {
         {userLocation && (
           <Marker 
             position={userLocation} 
-            icon={new Icon({ iconUrl: markerIconUrl, iconSize: [25, 41] })} // Icono personalizado
+            icon={userIcon}
           >
-            <Popup>Tu ubicación actual</Popup>
           </Marker>
         )}
       </MapContainer>
