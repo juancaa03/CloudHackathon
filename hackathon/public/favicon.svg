@@ -1,0 +1,13 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (optional) -->
+  <rect width="100%" height="100%" fill="white"/>
+
+  <!-- Curved Road -->
+  <path d="M50,80 Q120,20 200,80" stroke="#444" stroke-width="8" fill="none"/>
+  <path d="M50,80 Q120,20 200,80" stroke="white" stroke-width="2" stroke-dasharray="10,10" fill="none"/>
+
+  <!-- SafeRoute Text -->
+  <text x="60" y="60" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#222">
+    SafeRoute
+  </text>
+</svg>

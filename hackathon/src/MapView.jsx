@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import useMapData from "./useMapData";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -26,52 +26,7 @@ const radarIcon = new L.Icon({
 });
 
 export default function MapView() {
-  const [userLocation, setUserLocation] = useState(null);
-  const [riskZones, setRiskZones] = useState([]); // Expected format: [[[lat, lon], count], ...]
-  const [radars, setRadars] = useState([]); // Expected format: [[lat, lon], ...]
-  const [fatality, setPercent] = useState(null);
-  const [deaths, setDeaths] = useState([]);
-  let riskAccidents = 0;
-
-  // Obtain the real user location
-  useEffect(() => {
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        setUserLocation([position.coords.latitude, position.coords.longitude]);
-      },
-      (error) => {
-        console.error("Error obtaining location:", error);
-        setUserLocation([41.1189, 1.2445]); // Default location if error occurs
-      }
-    );
-  }, []);
-
-  // Load risk zones and radar coordinates from the backend
-  useEffect(() => {
-    // Fetch percentage of fatal accidents
-    fetch("http://localhost:8000/percentFatality")
-      .then((response) => response.json())
-      .then((data) => setPercent(data))
-      .catch((error) => console.error("Error obtaining fatality percentage:", error));
-
-    // Fetch number of deaths and accident count  
-    fetch("http://localhost:8000/deathCount")
-      .then((response) => response.json())
-      .then((data) => setDeaths(data))
-      .catch((error) => console.error("Error obtaining death count:", error));
-
-    // Fetch accident-prone zones
-    fetch("http://localhost:8000/hotZones")
-      .then((response) => response.json())
-      .then((data) => setRiskZones(data))
-      .catch((error) => console.error("Error obtaining risk zones:", error));
-
-    // Fetch radar coordinates (each as [lat, lon])
-    fetch("http://localhost:8000/radarList")
-      .then((response) => response.json())
-      .then((data) => setRadars(data))
-      .catch((error) => console.error("Error obtaining radars:", error));
-  }, []);
+  const { userLocation, riskZones, radars } = useMapData();
 
   if (!userLocation) {
     return <p>Loading location...</p>;
@@ -80,16 +35,9 @@ export default function MapView() {
   // Define a threshold for the accident-prone zones
   const threshold = 10; // Change this value as needed
 
-  console.log(fatality + "%")// Percentage of fatal accidents, change use as needed
-  console.log(deaths[0] + " - " + deaths[1])// Number of deaths and number of accidents
-  for(let i = 0; i < riskZones.length; i++){
-    riskAccidents += riskZones[i][1]
-  }
-  console.log(riskAccidents)
-
   return (
     <div className="h-full w-full">
-      <MapContainer center={userLocation} zoom={17} style={{ height: "100%", width: "100%" }}>
+      <MapContainer center={userLocation} zoom={12} style={{ height: "100%", width: "100%" }}>
         <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}" />
 
         {/* Render accident-prone zones */}
