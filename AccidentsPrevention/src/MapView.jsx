@@ -1,99 +1,88 @@
-import { useState, useEffect } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
-import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
-import 'leaflet-routing-machine';
-import hombre from './assets/hombre.png';
-import destinatioon from './assets/destination.svg';
+import { useState, useEffect } from "react";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import risk from "./assets/peligro.png";
+import alert from "./assets/alertaamarilla.png";
+import radar from "./assets/radar.png";
 
-// Icono del usuario
-const userIcon = new L.Icon({
-  iconUrl: hombre,
+// Iconos para riesgo, alerta y radar
+const riskIcon = new L.Icon({
+  iconUrl: risk,
   iconSize: [30, 30],
   iconAnchor: [15, 30],
 });
 
-// Icono del usuario
-const destinationIcon = new L.Icon({
-    iconUrl: destinatioon,
-    iconSize: [30, 30],
-    iconAnchor: [15, 30],
-  });
+const alertIcon = new L.Icon({
+  iconUrl: alert,
+  iconSize: [30, 30],
+  iconAnchor: [15, 30],
+});
 
-function Routing({ userLocation, destination }) {
-  const map = useMap();
-
-  useEffect(() => {
-    if (!map || !userLocation || !destination) return;
-
-    // Eliminar rutas previas antes de dibujar una nueva
-    map.eachLayer((layer) => {
-      if (layer._route) map.removeLayer(layer);
-    });
-
-    const control = L.Routing.control({
-      waypoints: [L.latLng(userLocation), L.latLng(destination)],
-      routeWhileDragging: true,
-      createMarker: () => null,
-      show: false,
-      addWaypoints: false,
-      lineOptions: {
-        styles: [{ color: '#007bff', weight: 6, opacity: 0.8 }],
-      },
-    }).addTo(map);
-
-    // Guardamos la referencia de la ruta para poder eliminarla después
-    control.getPlan().options.waypoints[0]._route = true;
-
-    return () => map.removeControl(control);
-  }, [userLocation, destination, map]);
-
-  return null;
-}
+const radarIcon = new L.Icon({
+  iconUrl: radar,
+  iconSize: [30, 30],
+  iconAnchor: [15, 30],
+});
 
 export default function MapView() {
-  const [userLocation, setUserLocation] = useState([41.1189, 1.2445]); // Tarragona
-  const [destination, setDestination] = useState([41.1159, 1.2515]); // Destino de prueba
-  const [watchingPosition, setWatchingPosition] = useState(false);
+  const [userLocation, setUserLocation] = useState(null);
+  const [riskZones, setRiskZones] = useState([]); // Zonas de riesgo de accidentes
+  const [radars, setRadars] = useState([]); // Radares
 
+  // Obtener la ubicación real del usuario
   useEffect(() => {
-    if (!watchingPosition) return;
-
-    const watchId = navigator.geolocation.watchPosition(
+    navigator.geolocation.getCurrentPosition(
       (position) => {
         setUserLocation([position.coords.latitude, position.coords.longitude]);
       },
-      (error) => console.error("Error obteniendo ubicación:", error),
-      { enableHighAccuracy: true }
+      (error) => {
+        console.error("Error obteniendo ubicación:", error);
+        setUserLocation([41.1189, 1.2445]); // Ubicación por defecto en caso de error
+      }
     );
+  }, []);
 
-    return () => navigator.geolocation.clearWatch(watchId);
-  }, [watchingPosition]);
+  // Cargar las zonas de riesgo y los radares desde el backend
+  useEffect(() => {
+    // Cargar zonas de riesgo
+    fetch("/riskZones.json") // Ruta del archivo JSON de las zonas de riesgo
+      .then((response) => response.json())
+      .then((data) => setRiskZones(data))
+      .catch((error) => console.error("Error obteniendo las zonas de riesgo:", error));
+
+    // Cargar radares
+    fetch("/radars.json") // Ruta del archivo JSON de los radares
+      .then((response) => response.json())
+      .then((data) => setRadars(data))
+      .catch((error) => console.error("Error obteniendo los radares:", error));
+  }, []);
+
+  if (!userLocation) {
+    return <p>Cargando ubicación...</p>;
+  }
 
   return (
-    <div style={{ height: '100vh', width: '100vw' }}>
-      <button
-        style={{ position: 'absolute', top: 10, left: 10, zIndex: 1000, padding: '10px 15px', fontSize: '16px' }}
-        onClick={() => setWatchingPosition(!watchingPosition)}
-      >
-        {watchingPosition ? "Detener seguimiento" : "Iniciar seguimiento"}
-      </button>
+    <div style={{ height: "100vh", width: "100vw" }}>
+      <MapContainer center={userLocation} zoom={17} style={{ height: "100%", width: "100%" }}>
+        <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}" />
 
-      <MapContainer center={userLocation} zoom={17} style={{ height: '100%', width: '100%' }}> 
-        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-        
-        {/* Marcador del usuario */}
-        <Marker position={userLocation} icon={userIcon}>
-          <Popup>Tú estás aquí</Popup>
-        </Marker>
+        {/* Agregar los marcadores de las zonas de riesgo */}
+        {riskZones.map((zone, index) => {
+          const icon = zone.type === "alert" ? alertIcon : riskIcon;
+          return (
+            <Marker key={index} position={[zone.latitude, zone.longitude]} icon={icon}>
+              <Popup>{zone.type === "alert" ? "Alerta de accidente" : "Zona de riesgo de accidentes"}</Popup>
+            </Marker>
+          );
+        })}
 
-        {/* Marcador de destino */}
-        <Marker position={destination} icon={destinationIcon}>
-          <Popup>Destino</Popup>
-        </Marker>
-
-        {/* Dibujar la ruta */}
-        <Routing userLocation={userLocation} destination={destination} />
+        {/* Agregar los marcadores de los radares */}
+        {radars.map((radar, index) => (
+          <Marker key={index} position={[radar.latitude, radar.longitude]} icon={radarIcon}>
+            <Popup>Radar de velocidad</Popup>
+          </Marker>
+        ))}
       </MapContainer>
     </div>
   );
