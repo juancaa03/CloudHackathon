@@ -1,3 +1,4 @@
+import folium.plugins
 import requests
 import os
 import json
@@ -5,7 +6,8 @@ import pandas as pd
 from geopy.distance import geodesic
 from pyproj import Transformer
 import folium
-from folium.plugins import MarkerCluster
+from sklearn.cluster import DBSCAN
+import numpy as np
 
 CACHE_DIR = "cache"  # Folder for caching API responses
 
@@ -17,7 +19,6 @@ def get_cache_filename(road_ref):
 def load_cached_data(road_ref):
 	cache_file = get_cache_filename(road_ref)
 	if os.path.exists(cache_file):
-		print(f"Using cached data for {road_ref}...")
 		with open(cache_file, "r", encoding="utf-8") as f:
 			return json.load(f)
 	return None
@@ -128,6 +129,48 @@ def find_closest_node(nodes, target_kp):
 	
 	return best_node
 
+def detect_accident_zones_dbscan(accident_coords, radius_km=1, min_accidents=5):
+    """
+    Uses DBSCAN to group nearby accidents and detect accident-prone zones.
+
+    Parameters:
+        accident_coords (list): List of accident locations as [[lat, lon], ...]
+        radius_km (float): The clustering radius in kilometers.
+        min_accidents (int): Minimum number of accidents to form a high-risk cluster.
+
+    Returns:
+        list: List of cluster centers (each as [lat, lon]) for clusters that meet the threshold.
+    """
+    if not accident_coords:
+        return []
+    
+    # Convert to a NumPy array
+    coords_array = np.array(accident_coords)
+    
+    # Convert coordinates to radians (required by haversine metric)
+    coords_rad = np.radians(coords_array)
+    
+    # Calculate eps in radians: radius_km divided by Earth's radius (6371 km)
+    eps = radius_km / 6371.0  # For a 1 km radius, eps ≈ 0.000157
+    
+    db = DBSCAN(eps=eps, min_samples=min_accidents, metric='haversine').fit(coords_rad)
+    labels = db.labels_
+    
+    unique_labels = set(labels)
+    accident_zones = []
+    accident_counts = []
+    
+    # Compute cluster centers (skip noise points labeled as -1)
+    for label in unique_labels:
+        if label == -1:
+            continue
+        cluster_points = coords_array[labels == label]
+        center = np.mean(cluster_points, axis=0)
+        accident_counts.append(len(cluster_points))
+        accident_zones.append(center.tolist())
+    
+    return accident_zones, accident_counts
+
 def main():
 	accidentRoads = {}
 	accidentCoords = []
@@ -164,6 +207,8 @@ def main():
 			
 	print("Finished processing radar and accident coordinates!")
 	
+	zoneCoords, accidentCounts = detect_accident_zones_dbscan(accidentCoords, radius_km=0.75, min_accidents=5)
+	
 	tgnMap = folium.Map(location=[41.0, 1.0], tiles="OpenStreetMap", zoom_start=5)
  
 	for item in accidentCoords:
@@ -171,6 +216,9 @@ def main():
 	
 	for item in radarCoords:
 		folium.Marker(item, icon=folium.Icon(color='gray')).add_to(tgnMap)
+  
+	for ind in range(0, len(zoneCoords)-1):
+		folium.Marker(zoneCoords[ind], icon=folium.Icon(color='blue'), popup=str(accidentCounts[ind])).add_to(tgnMap)
   
 	tgnMap.save("map.html")
 
