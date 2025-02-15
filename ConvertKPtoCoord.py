@@ -172,7 +172,7 @@ def detect_accident_zones_dbscan(accident_coords, radius_km=1, min_accidents=5):
 def createAccidentCoords():
 	accidentRoads = {}
 	accidentCoords = []
-	accidents = pd.read_json('https://analisi.transparenciacatalunya.cat/resource/rmgc-ncpb.json?$query=SELECT%20%60dat%60%2C%20%60via%60%2C%20%60pk%60%2C%20%60nomdem%60%2C%20%60hor%60%0AWHERE%0A%20%20caseless_contains(%60nomdem%60%2C%20%22Tarragona%22)%0A%20%20AND%20caseless_ne(%60pk%60%2C%20%22999999%22)')
+	accidents = pd.read_json('https://analisi.transparenciacatalunya.cat/resource/rmgc-ncpb.json?$query=SELECT%20%60dat%60%2C%20%60via%60%2C%20%60pk%60%2C%20%60nomdem%60%2C%20%60hor%60%2C%20%60f_morts%60%0AWHERE%0A%20%20caseless_contains(%60nomdem%60%2C%20%22Tarragona%22)%0A%20%20AND%20caseless_ne(%60pk%60%2C%20%22999999%22)%0AORDER%20BY%20%60via%60%20ASC%20NULL%20LAST')
 
 	for index, row in accidents.loc[:, ['via', 'pk']].iterrows():
 		if row["via"] not in accidentRoads:
@@ -218,12 +218,41 @@ def createZoneCoords():
 	return zoneCoords
 
 def save_list_to_json(data_list, filename):
-    """Saves a Python list (or any serializable object) to a JSON file."""
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data_list, f, indent=2)
-    print(f"Saved data to {filename}")
+	"""Saves a Python list (or any serializable object) to a JSON file."""
+	with open(filename, "w", encoding="utf-8") as f:
+		json.dump(data_list, f, indent=2)
+	print(f"Saved data to {filename}")
+	
+def getPercentFatality():
+	noDeathCount = 0
+	fatalityCount = 0
+	accidents = pd.read_json('https://analisi.transparenciacatalunya.cat/resource/rmgc-ncpb.json?$query=SELECT%20%60dat%60%2C%20%60via%60%2C%20%60pk%60%2C%20%60nomdem%60%2C%20%60hor%60%2C%20%60f_morts%60%0AWHERE%0A%20%20caseless_contains(%60nomdem%60%2C%20%22Tarragona%22)%0A%20%20AND%20caseless_ne(%60pk%60%2C%20%22999999%22)%0AORDER%20BY%20%60via%60%20ASC%20NULL%20LAST')
+		
+	for index, row in accidents.loc[:, ['f_morts']].iterrows():
+		if row["f_morts"] > 0:
+			noDeathCount += 1
+			fatalityCount += 1
+		else:
+			noDeathCount += 1
+
+	percent = float(fatalityCount/noDeathCount)
+	return round(percent*100, 2)
+
+def getDeathCount():
+	accidentCount = 0
+	deathCount = 0
+	accidents = pd.read_json('https://analisi.transparenciacatalunya.cat/resource/rmgc-ncpb.json?$query=SELECT%20%60dat%60%2C%20%60via%60%2C%20%60pk%60%2C%20%60nomdem%60%2C%20%60hor%60%2C%20%60f_morts%60%0AWHERE%0A%20%20caseless_contains(%60nomdem%60%2C%20%22Tarragona%22)%0A%20%20AND%20caseless_ne(%60pk%60%2C%20%22999999%22)%0AORDER%20BY%20%60via%60%20ASC%20NULL%20LAST')
+		
+	for index, row in accidents.loc[:, ['f_morts']].iterrows():
+		deathCount += row['f_morts']
+		accidentCount += 1
+
+	return [int(deathCount), accidentCount]
+
 
 def main():
+    
+	getDeathCount()
 	
 	tgnMap = folium.Map(location=[41.0, 1.0], tiles="OpenStreetMap", zoom_start=5)
  

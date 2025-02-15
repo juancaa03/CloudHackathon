@@ -26,5 +26,12 @@ async def radars():
 
 @app.get("/hotZones")
 async def hotzones():
-    zones = data.createZoneCoords()
-    return zones
+    return data.createZoneCoords()
+
+@app.get("/percentFatality")
+async def percentFatality():
+    return data.getPercentFatality()
+
+@app.get("/deathCount")
+async def deathCount():
+    return data.getDeathCount()

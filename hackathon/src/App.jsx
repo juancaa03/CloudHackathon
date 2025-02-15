@@ -1,11 +1,11 @@
 import './App.css'
-import MapView from './MapView'
+import BentoGrid from './BentoGrid'
 
 
 function App() {
   
   return (
-    <MapView />
+    <BentoGrid />
   )
 }
 
