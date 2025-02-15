@@ -52,7 +52,9 @@ El projecte pot millorar la seguretat vial gràcies al sistema d'alertes en temp
 
 ![alt text](https://cdn.discordapp.com/attachments/1234970437570527384/1340335633545297930/Landing.png?ex=67b1fc55&is=67b0aad5&hm=a1cb78ca92e9737467e6f145dbf2c6b8514bd3c4da32a76a61fca107b44ec70c&)
 ![alt text](https://cdn.discordapp.com/attachments/1234970437570527384/1340335634593742950/map-page.png?ex=67b1fc55&is=67b0aad5&hm=bd94767386046983ff74b5cba572b1e6edae672eb29d0aa013b3810237579ba0&)
-![alt text](https://drive.google.com/file/d/1AxNQWwpzlO-deBbmRV8O446uXatKvY5_/view?usp=drive_link)
+
+Video demostracion:
+https://drive.google.com/file/d/1AxNQWwpzlO-deBbmRV8O446uXatKvY5_/view?usp=drive_link
 
 
 ## 🙌 Agraïments i conclusió
