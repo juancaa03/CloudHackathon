@@ -126,7 +126,11 @@ export default function RouteAdviser() {
     return () => clearInterval(interval);
   }, [destination, effectiveUserLocation]);
 
-  if (!userLocation) return <p>Loading location...</p>;
+  if (!userLocation) return <iframe
+    src="/loading.html"
+    title="Loading"
+    style={{ width: "100%", height: "100vh", border: "none" }}
+  />;
 
   return (
     <div style={{ height: "100vh", width: "100vw", display: "flex", justifyContent: "center", alignItems: "center" }}>

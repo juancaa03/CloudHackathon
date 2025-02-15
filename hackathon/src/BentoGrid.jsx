@@ -65,7 +65,7 @@ const BentoGrid = () => {
       
       {[ 
         { title: "Radares", value: radars.length, percentage: null },
-        { title: "Fatalidades", value: deaths[0], percentage: null },
+        { title: "Muertes", value: deaths[0], percentage: null },
         { title: "Porcentaje de fatalidad", value: fatality + "%", percentage: fatality },
         { title: "Accidentes en zonas de riesgo", value: riskAccidents / 10 + "%", percentage: (riskAccidents / 1000) * 100 },
       ].map((stat, index) => (

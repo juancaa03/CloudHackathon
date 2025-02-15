@@ -29,7 +29,11 @@ export default function MapView() {
   const { userLocation, riskZones, radars } = useMapData();
 
   if (!userLocation) {
-    return <p>Loading location...</p>;
+    return <iframe
+    src="/loading.html"
+    title="Loading"
+    style={{ width: "100%", height: "100vh", border: "none" }}
+  />;
   }
 
   // Define a threshold for the accident-prone zones
