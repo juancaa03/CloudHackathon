@@ -1,0 +1,799 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.5 1bd436f1",
+  "osm3s": {
+    "timestamp_osm_base": "2025-02-15T00:19:33Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 608694579,
+      "lat": 40.7116695,
+      "lon": 0.5347331
+    },
+    {
+      "type": "node",
+      "id": 608694582,
+      "lat": 40.7134547,
+      "lon": 0.5323056
+    },
+    {
+      "type": "node",
+      "id": 617136827,
+      "lat": 40.7165902,
+      "lon": 0.5019077
+    },
+    {
+      "type": "node",
+      "id": 617136829,
+      "lat": 40.7163282,
+      "lon": 0.5274001
+    },
+    {
+      "type": "node",
+      "id": 617136831,
+      "lat": 40.7174672,
+      "lon": 0.5188236
+    },
+    {
+      "type": "node",
+      "id": 1409595640,
+      "lat": 40.7166125,
+      "lon": 0.5023491
+    },
+    {
+      "type": "node",
+      "id": 1409595703,
+      "lat": 40.7168939,
+      "lon": 0.5057183
+    },
+    {
+      "type": "node",
+      "id": 1409595718,
+      "lat": 40.7167929,
+      "lon": 0.5060356
+    },
+    {
+      "type": "node",
+      "id": 1409595720,
+      "lat": 40.7167288,
+      "lon": 0.5048351
+    },
+    {
+      "type": "node",
+      "id": 1409595722,
+      "lat": 40.7168982,
+      "lon": 0.5052012
+    },
+    {
+      "type": "node",
+      "id": 1409595729,
+      "lat": 40.7166884,
+      "lon": 0.5037468
+    },
+    {
+      "type": "node",
+      "id": 1409595758,
+      "lat": 40.7166132,
+      "lon": 0.505213
+    },
+    {
+      "type": "node",
+      "id": 1409595760,
+      "lat": 40.7168398,
+      "lon": 0.5058138,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1875867893,
+      "lat": 40.7151617,
+      "lon": 0.5293869
+    },
+    {
+      "type": "node",
+      "id": 1875882004,
+      "lat": 40.7136825,
+      "lon": 0.5319496
+    },
+    {
+      "type": "node",
+      "id": 1875886756,
+      "lat": 40.7115912,
+      "lon": 0.5349013
+    },
+    {
+      "type": "node",
+      "id": 1876322848,
+      "lat": 40.7147137,
+      "lon": 0.530163
+    },
+    {
+      "type": "node",
+      "id": 1876374363,
+      "lat": 40.7132999,
+      "lon": 0.5325287
+    },
+    {
+      "type": "node",
+      "id": 1876374381,
+      "lat": 40.7139383,
+      "lon": 0.5315103
+    },
+    {
+      "type": "node",
+      "id": 1876374390,
+      "lat": 40.7141474,
+      "lon": 0.5311587
+    },
+    {
+      "type": "node",
+      "id": 1876484096,
+      "lat": 40.7166329,
+      "lon": 0.5264207
+    },
+    {
+      "type": "node",
+      "id": 1876484105,
+      "lat": 40.7165329,
+      "lon": 0.5268646
+    },
+    {
+      "type": "node",
+      "id": 1876484120,
+      "lat": 40.7164395,
+      "lon": 0.52715
+    },
+    {
+      "type": "node",
+      "id": 1876484130,
+      "lat": 40.7167147,
+      "lon": 0.525728
+    },
+    {
+      "type": "node",
+      "id": 1876914855,
+      "lat": 40.7145047,
+      "lon": 0.5305264
+    },
+    {
+      "type": "node",
+      "id": 1876933376,
+      "lat": 40.7149972,
+      "lon": 0.5296719
+    },
+    {
+      "type": "node",
+      "id": 1878311675,
+      "lat": 40.712343,
+      "lon": 0.5337931
+    },
+    {
+      "type": "node",
+      "id": 1879080957,
+      "lat": 40.715442,
+      "lon": 0.5288179
+    },
+    {
+      "type": "node",
+      "id": 2955882373,
+      "lat": 40.7169089,
+      "lon": 0.5081421
+    },
+    {
+      "type": "node",
+      "id": 2955882375,
+      "lat": 40.7172112,
+      "lon": 0.5212159
+    },
+    {
+      "type": "node",
+      "id": 4580029966,
+      "lat": 40.7167484,
+      "lon": 0.5058841
+    },
+    {
+      "type": "node",
+      "id": 4580029972,
+      "lat": 40.7166572,
+      "lon": 0.5057395
+    },
+    {
+      "type": "node",
+      "id": 4580029974,
+      "lat": 40.7167062,
+      "lon": 0.5049925
+    },
+    {
+      "type": "node",
+      "id": 4580029975,
+      "lat": 40.7166878,
+      "lon": 0.505074,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4580029976,
+      "lat": 40.7168212,
+      "lon": 0.5050802
+    },
+    {
+      "type": "node",
+      "id": 4580029981,
+      "lat": 40.7167821,
+      "lon": 0.5049831
+    },
+    {
+      "type": "node",
+      "id": 4590844186,
+      "lat": 40.7167085,
+      "lon": 0.5058103
+    },
+    {
+      "type": "node",
+      "id": 4640657341,
+      "lat": 40.7153827,
+      "lon": 0.5291509
+    },
+    {
+      "type": "node",
+      "id": 4640657343,
+      "lat": 40.715274,
+      "lon": 0.5290445
+    },
+    {
+      "type": "node",
+      "id": 4640657349,
+      "lat": 40.7152273,
+      "lon": 0.5292796,
+      "tags": {
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6341573358,
+      "lat": 40.7169153,
+      "lon": 0.508266
+    },
+    {
+      "type": "node",
+      "id": 6341787035,
+      "lat": 40.7171258,
+      "lon": 0.5121671
+    },
+    {
+      "type": "node",
+      "id": 6341787036,
+      "lat": 40.7171563,
+      "lon": 0.5127472
+    },
+    {
+      "type": "node",
+      "id": 6341787037,
+      "lat": 40.7171762,
+      "lon": 0.5131038
+    },
+    {
+      "type": "node",
+      "id": 6341787038,
+      "lat": 40.7172035,
+      "lon": 0.51358
+    },
+    {
+      "type": "node",
+      "id": 6341787039,
+      "lat": 40.717234,
+      "lon": 0.5141398
+    },
+    {
+      "type": "node",
+      "id": 6341787040,
+      "lat": 40.7169469,
+      "lon": 0.5088546
+    },
+    {
+      "type": "node",
+      "id": 6341787041,
+      "lat": 40.7170206,
+      "lon": 0.5102541
+    },
+    {
+      "type": "node",
+      "id": 6341787042,
+      "lat": 40.716995,
+      "lon": 0.5097719
+    },
+    {
+      "type": "node",
+      "id": 6341787043,
+      "lat": 40.7169799,
+      "lon": 0.5094581
+    },
+    {
+      "type": "node",
+      "id": 6341787044,
+      "lat": 40.7170729,
+      "lon": 0.5111848
+    },
+    {
+      "type": "node",
+      "id": 6341787045,
+      "lat": 40.7170944,
+      "lon": 0.5115757
+    },
+    {
+      "type": "node",
+      "id": 6341787046,
+      "lat": 40.7170486,
+      "lon": 0.510771
+    },
+    {
+      "type": "node",
+      "id": 9327939685,
+      "lat": 40.7173335,
+      "lon": 0.5161385
+    },
+    {
+      "type": "node",
+      "id": 11638748844,
+      "lat": 40.7168112,
+      "lon": 0.5058888
+    },
+    {
+      "type": "node",
+      "id": 11638748845,
+      "lat": 40.7167166,
+      "lon": 0.5049064
+    },
+    {
+      "type": "node",
+      "id": 11638785005,
+      "lat": 40.7154969,
+      "lon": 0.5287519,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11638785007,
+      "lat": 40.71557,
+      "lon": 0.5287144
+    },
+    {
+      "type": "node",
+      "id": 11638785008,
+      "lat": 40.7155133,
+      "lon": 0.5289054
+    },
+    {
+      "type": "node",
+      "id": 11638785014,
+      "lat": 40.7132739,
+      "lon": 0.5324936
+    },
+    {
+      "type": "node",
+      "id": 11638785015,
+      "lat": 40.7131528,
+      "lon": 0.5326693
+    },
+    {
+      "type": "node",
+      "id": 11638785016,
+      "lat": 40.7134269,
+      "lon": 0.5322717
+    },
+    {
+      "type": "node",
+      "id": 11638785017,
+      "lat": 40.7134659,
+      "lon": 0.5321999
+    },
+    {
+      "type": "node",
+      "id": 11638785018,
+      "lat": 40.7136255,
+      "lon": 0.5319478
+    },
+    {
+      "type": "node",
+      "id": 11638785019,
+      "lat": 40.7136486,
+      "lon": 0.5319082
+    },
+    {
+      "type": "node",
+      "id": 11638785020,
+      "lat": 40.7139123,
+      "lon": 0.531461
+    },
+    {
+      "type": "node",
+      "id": 11638785021,
+      "lat": 40.7141186,
+      "lon": 0.5311248
+    },
+    {
+      "type": "node",
+      "id": 11638785022,
+      "lat": 40.714151,
+      "lon": 0.5310546
+    },
+    {
+      "type": "node",
+      "id": 11638785023,
+      "lat": 40.7144798,
+      "lon": 0.5304757
+    },
+    {
+      "type": "node",
+      "id": 11638785024,
+      "lat": 40.7145129,
+      "lon": 0.5304243
+    },
+    {
+      "type": "node",
+      "id": 11638785025,
+      "lat": 40.7147385,
+      "lon": 0.530038
+    },
+    {
+      "type": "node",
+      "id": 11638785026,
+      "lat": 40.7149699,
+      "lon": 0.5296454
+    },
+    {
+      "type": "node",
+      "id": 11638785027,
+      "lat": 40.7152051,
+      "lon": 0.5292602
+    },
+    {
+      "type": "node",
+      "id": 11638785028,
+      "lat": 40.7152438,
+      "lon": 0.5291717
+    },
+    {
+      "type": "node",
+      "id": 11638785030,
+      "lat": 40.7153017,
+      "lon": 0.5292052,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11638785031,
+      "lat": 40.7131305,
+      "lon": 0.5327284
+    },
+    {
+      "type": "node",
+      "id": 11638785033,
+      "lat": 40.7155728,
+      "lon": 0.5286671
+    },
+    {
+      "type": "node",
+      "id": 11752732529,
+      "lat": 40.7146833,
+      "lon": 0.5301325
+    },
+    {
+      "type": "way",
+      "id": 127315575,
+      "nodes": [
+        4580029972,
+        4590844186,
+        4580029966,
+        1409595718
+      ],
+      "tags": {
+        "highway": "secondary",
+        "oneway": "yes",
+        "ref": "T-350",
+        "source": "PNOA; datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 127315577,
+      "nodes": [
+        1409595722,
+        4580029976,
+        4580029981,
+        1409595720
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "noname": "yes",
+        "oneway": "yes",
+        "ref": "T-350",
+        "source": "PNOA; datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 127315583,
+      "nodes": [
+        1409595720,
+        1409595729,
+        1409595640,
+        617136827
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera d'Amposta",
+        "name:ca": "Carretera d'Amposta",
+        "oneway": "no",
+        "ref": "T-350",
+        "source": "PNOA; datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 177197404,
+      "nodes": [
+        11638785033,
+        617136829,
+        1876484120,
+        1876484105
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "oneway": "no",
+        "ref": "T-350",
+        "source": "PNOA; datos oficiales",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 177197406,
+      "nodes": [
+        1876484105,
+        1876484096,
+        1876484130
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "oneway": "no",
+        "ref": "T-350",
+        "source": "PNOA; datos oficiales",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 177197410,
+      "nodes": [
+        1876484130,
+        2955882375,
+        617136831,
+        9327939685,
+        6341787039,
+        6341787038,
+        6341787037,
+        6341787036,
+        6341787035,
+        6341787045,
+        6341787044,
+        6341787046,
+        6341787041,
+        6341787042,
+        6341787043,
+        6341787040,
+        6341573358,
+        2955882373,
+        1409595718
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "oneway": "no",
+        "ref": "T-350",
+        "source": "PNOA; datos oficiales",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 177197417,
+      "nodes": [
+        11638785031,
+        1876374363,
+        608694582,
+        1875882004,
+        1876374381,
+        1876374390,
+        1876914855,
+        1876322848,
+        1876933376,
+        1875867893,
+        4640657349,
+        11638785030,
+        4640657341
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Carretera d'Amposta",
+        "name:ca": "Carretera d'Amposta",
+        "oneway": "yes",
+        "ref": "T-350",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 441635903,
+      "nodes": [
+        1409595718,
+        11638748844,
+        1409595760,
+        1409595703
+      ],
+      "tags": {
+        "highway": "secondary",
+        "oneway": "yes",
+        "ref": "T-350",
+        "source": "PNOA; datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 463878772,
+      "nodes": [
+        1409595720,
+        11638748845,
+        4580029974,
+        4580029975,
+        1409595758
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "noname": "yes",
+        "oneway": "yes",
+        "ref": "T-350",
+        "source": "PNOA; datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1252110315,
+      "nodes": [
+        11638785008,
+        11638785007,
+        11638785033
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "T-350",
+        "source": "PNOA; datos oficiales",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1252110316,
+      "nodes": [
+        11638785033,
+        11638785005,
+        1879080957
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "T-350",
+        "source": "PNOA; datos oficiales",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1252110318,
+      "nodes": [
+        4640657343,
+        11638785028,
+        11638785027,
+        11638785026,
+        11638785025,
+        11752732529,
+        11638785024,
+        11638785023,
+        11638785022,
+        11638785021,
+        11638785020,
+        11638785019,
+        11638785018,
+        11638785017,
+        11638785016,
+        11638785014,
+        11638785015,
+        11638785031
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Carretera d'Amposta",
+        "name:ca": "Carretera d'Amposta",
+        "oneway": "yes",
+        "ref": "T-350",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1252110319,
+      "nodes": [
+        1875886756,
+        608694579,
+        1878311675,
+        11638785031
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Carretera d'Amposta",
+        "name:ca": "Carretera d'Amposta",
+        "oneway": "no",
+        "ref": "T-350",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}

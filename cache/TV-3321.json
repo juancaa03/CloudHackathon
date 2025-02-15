@@ -1,0 +1,2493 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.5 1bd436f1",
+  "osm3s": {
+    "timestamp_osm_base": "2025-02-15T00:14:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 603810913,
+      "lat": 40.5391092,
+      "lon": 0.4710493
+    },
+    {
+      "type": "node",
+      "id": 603810914,
+      "lat": 40.5371421,
+      "lon": 0.4653209
+    },
+    {
+      "type": "node",
+      "id": 616779233,
+      "lat": 40.5392849,
+      "lon": 0.471206
+    },
+    {
+      "type": "node",
+      "id": 616779235,
+      "lat": 40.5390175,
+      "lon": 0.4711432
+    },
+    {
+      "type": "node",
+      "id": 616779236,
+      "lat": 40.5390091,
+      "lon": 0.4712957
+    },
+    {
+      "type": "node",
+      "id": 616779237,
+      "lat": 40.5390897,
+      "lon": 0.4714059
+    },
+    {
+      "type": "node",
+      "id": 616779239,
+      "lat": 40.5392527,
+      "lon": 0.4713529
+    },
+    {
+      "type": "node",
+      "id": 616779246,
+      "lat": 40.5384925,
+      "lon": 0.4739399
+    },
+    {
+      "type": "node",
+      "id": 616779247,
+      "lat": 40.5389964,
+      "lon": 0.4724438,
+      "tags": {
+        "direction": "backward",
+        "side": "left",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 616779248,
+      "lat": 40.5389732,
+      "lon": 0.4781277
+    },
+    {
+      "type": "node",
+      "id": 616988049,
+      "lat": 40.5395602,
+      "lon": 0.4829223
+    },
+    {
+      "type": "node",
+      "id": 648509103,
+      "lat": 40.544254,
+      "lon": 0.489886
+    },
+    {
+      "type": "node",
+      "id": 648509112,
+      "lat": 40.5443635,
+      "lon": 0.4897922
+    },
+    {
+      "type": "node",
+      "id": 648509116,
+      "lat": 40.5444089,
+      "lon": 0.4897958
+    },
+    {
+      "type": "node",
+      "id": 648509122,
+      "lat": 40.5445092,
+      "lon": 0.4899064
+    },
+    {
+      "type": "node",
+      "id": 648509126,
+      "lat": 40.5445198,
+      "lon": 0.489964
+    },
+    {
+      "type": "node",
+      "id": 648509129,
+      "lat": 40.5445162,
+      "lon": 0.490023
+    },
+    {
+      "type": "node",
+      "id": 648509144,
+      "lat": 40.5444989,
+      "lon": 0.4900776
+    },
+    {
+      "type": "node",
+      "id": 648509149,
+      "lat": 40.5444342,
+      "lon": 0.4901509
+    },
+    {
+      "type": "node",
+      "id": 648509152,
+      "lat": 40.5443924,
+      "lon": 0.4901652
+    },
+    {
+      "type": "node",
+      "id": 648509167,
+      "lat": 40.5442716,
+      "lon": 0.4901038
+    },
+    {
+      "type": "node",
+      "id": 648509172,
+      "lat": 40.5442383,
+      "lon": 0.4899404
+    },
+    {
+      "type": "node",
+      "id": 648509180,
+      "lat": 40.5442816,
+      "lon": 0.4898405
+    },
+    {
+      "type": "node",
+      "id": 648513213,
+      "lat": 40.5414868,
+      "lon": 0.486111
+    },
+    {
+      "type": "node",
+      "id": 648513223,
+      "lat": 40.5419116,
+      "lon": 0.4867537
+    },
+    {
+      "type": "node",
+      "id": 648517896,
+      "lat": 40.5393487,
+      "lon": 0.481942
+    },
+    {
+      "type": "node",
+      "id": 662290300,
+      "lat": 40.5391153,
+      "lon": 0.4796045
+    },
+    {
+      "type": "node",
+      "id": 662396614,
+      "lat": 40.5392478,
+      "lon": 0.4809464
+    },
+    {
+      "type": "node",
+      "id": 662396625,
+      "lat": 40.5388786,
+      "lon": 0.4775446
+    },
+    {
+      "type": "node",
+      "id": 662396632,
+      "lat": 40.5386531,
+      "lon": 0.4755117
+    },
+    {
+      "type": "node",
+      "id": 674039535,
+      "lat": 40.5385939,
+      "lon": 0.4733921
+    },
+    {
+      "type": "node",
+      "id": 676818501,
+      "lat": 40.5397584,
+      "lon": 0.4834162
+    },
+    {
+      "type": "node",
+      "id": 676818502,
+      "lat": 40.5437164,
+      "lon": 0.4894399
+    },
+    {
+      "type": "node",
+      "id": 679022138,
+      "lat": 40.5392619,
+      "lon": 0.4811058
+    },
+    {
+      "type": "node",
+      "id": 679022139,
+      "lat": 40.5394071,
+      "lon": 0.4822902
+    },
+    {
+      "type": "node",
+      "id": 778128398,
+      "lat": 40.5390927,
+      "lon": 0.4782714
+    },
+    {
+      "type": "node",
+      "id": 778128427,
+      "lat": 40.5390075,
+      "lon": 0.4784423
+    },
+    {
+      "type": "node",
+      "id": 778128450,
+      "lat": 40.5390898,
+      "lon": 0.4783272
+    },
+    {
+      "type": "node",
+      "id": 778128460,
+      "lat": 40.5390726,
+      "lon": 0.4783783
+    },
+    {
+      "type": "node",
+      "id": 778128466,
+      "lat": 40.5390432,
+      "lon": 0.4784186
+    },
+    {
+      "type": "node",
+      "id": 778128471,
+      "lat": 40.5389679,
+      "lon": 0.4784495
+    },
+    {
+      "type": "node",
+      "id": 778128475,
+      "lat": 40.5389286,
+      "lon": 0.4784396
+    },
+    {
+      "type": "node",
+      "id": 778128479,
+      "lat": 40.5388872,
+      "lon": 0.4784057
+    },
+    {
+      "type": "node",
+      "id": 778128483,
+      "lat": 40.538859,
+      "lon": 0.4783533
+    },
+    {
+      "type": "node",
+      "id": 778128488,
+      "lat": 40.5388487,
+      "lon": 0.4782906
+    },
+    {
+      "type": "node",
+      "id": 778128498,
+      "lat": 40.5388578,
+      "lon": 0.4782276
+    },
+    {
+      "type": "node",
+      "id": 778128511,
+      "lat": 40.5389255,
+      "lon": 0.4781392
+    },
+    {
+      "type": "node",
+      "id": 778128525,
+      "lat": 40.5390206,
+      "lon": 0.4781414
+    },
+    {
+      "type": "node",
+      "id": 778128532,
+      "lat": 40.5390559,
+      "lon": 0.4781726
+    },
+    {
+      "type": "node",
+      "id": 778128540,
+      "lat": 40.5390809,
+      "lon": 0.4782177
+    },
+    {
+      "type": "node",
+      "id": 779331929,
+      "lat": 40.5392647,
+      "lon": 0.4711325
+    },
+    {
+      "type": "node",
+      "id": 779331932,
+      "lat": 40.5392236,
+      "lon": 0.4710762
+    },
+    {
+      "type": "node",
+      "id": 779331946,
+      "lat": 40.5391685,
+      "lon": 0.4710468
+    },
+    {
+      "type": "node",
+      "id": 779331955,
+      "lat": 40.5390557,
+      "lon": 0.4710835
+    },
+    {
+      "type": "node",
+      "id": 779331963,
+      "lat": 40.539001,
+      "lon": 0.4712183
+    },
+    {
+      "type": "node",
+      "id": 779331967,
+      "lat": 40.5390405,
+      "lon": 0.4713621
+    },
+    {
+      "type": "node",
+      "id": 779331971,
+      "lat": 40.5391482,
+      "lon": 0.4714197
+    },
+    {
+      "type": "node",
+      "id": 779331979,
+      "lat": 40.5392058,
+      "lon": 0.4714009
+    },
+    {
+      "type": "node",
+      "id": 779331988,
+      "lat": 40.5392807,
+      "lon": 0.471284
+    },
+    {
+      "type": "node",
+      "id": 779378152,
+      "lat": 40.5430508,
+      "lon": 0.4884523
+    },
+    {
+      "type": "node",
+      "id": 828651211,
+      "lat": 40.5432529,
+      "lon": 0.488749
+    },
+    {
+      "type": "node",
+      "id": 833017027,
+      "lat": 40.5381038,
+      "lon": 0.4676934
+    },
+    {
+      "type": "node",
+      "id": 833017041,
+      "lat": 40.5387022,
+      "lon": 0.469542
+    },
+    {
+      "type": "node",
+      "id": 833017045,
+      "lat": 40.5385584,
+      "lon": 0.4690971
+    },
+    {
+      "type": "node",
+      "id": 833017099,
+      "lat": 40.5374161,
+      "lon": 0.465671
+    },
+    {
+      "type": "node",
+      "id": 833017104,
+      "lat": 40.537085,
+      "lon": 0.4652852
+    },
+    {
+      "type": "node",
+      "id": 859747800,
+      "lat": 40.5364308,
+      "lon": 0.4650513
+    },
+    {
+      "type": "node",
+      "id": 1342440132,
+      "lat": 40.5415847,
+      "lon": 0.4864329
+    },
+    {
+      "type": "node",
+      "id": 1342440133,
+      "lat": 40.54159,
+      "lon": 0.4863659
+    },
+    {
+      "type": "node",
+      "id": 1342440134,
+      "lat": 40.5416285,
+      "lon": 0.4865316
+    },
+    {
+      "type": "node",
+      "id": 1342440135,
+      "lat": 40.5416524,
+      "lon": 0.4862785
+    },
+    {
+      "type": "node",
+      "id": 1342440136,
+      "lat": 40.5417035,
+      "lon": 0.4865605
+    },
+    {
+      "type": "node",
+      "id": 1342440137,
+      "lat": 40.5417321,
+      "lon": 0.4862754
+    },
+    {
+      "type": "node",
+      "id": 1342440138,
+      "lat": 40.5417988,
+      "lon": 0.4864692
+    },
+    {
+      "type": "node",
+      "id": 1342440139,
+      "lat": 40.5418029,
+      "lon": 0.4863745
+    },
+    {
+      "type": "node",
+      "id": 1690644967,
+      "lat": 40.5416631,
+      "lon": 0.4865546
+    },
+    {
+      "type": "node",
+      "id": 1690644974,
+      "lat": 40.5417731,
+      "lon": 0.4865194
+    },
+    {
+      "type": "node",
+      "id": 1690644976,
+      "lat": 40.5418069,
+      "lon": 0.4864193
+    },
+    {
+      "type": "node",
+      "id": 1690644979,
+      "lat": 40.5417411,
+      "lon": 0.486548
+    },
+    {
+      "type": "node",
+      "id": 1690644981,
+      "lat": 40.5416198,
+      "lon": 0.4863061
+    },
+    {
+      "type": "node",
+      "id": 1690644983,
+      "lat": 40.5415963,
+      "lon": 0.4864816
+    },
+    {
+      "type": "node",
+      "id": 1690644986,
+      "lat": 40.5416939,
+      "lon": 0.4862672
+    },
+    {
+      "type": "node",
+      "id": 1690644987,
+      "lat": 40.5417861,
+      "lon": 0.4863285
+    },
+    {
+      "type": "node",
+      "id": 1690644988,
+      "lat": 40.5417584,
+      "lon": 0.4862929
+    },
+    {
+      "type": "node",
+      "id": 1692221648,
+      "lat": 40.5388566,
+      "lon": 0.4728518
+    },
+    {
+      "type": "node",
+      "id": 1828775396,
+      "lat": 40.5393784,
+      "lon": 0.4814774
+    },
+    {
+      "type": "node",
+      "id": 1828775399,
+      "lat": 40.5393735,
+      "lon": 0.4815742
+    },
+    {
+      "type": "node",
+      "id": 1828775402,
+      "lat": 40.5392653,
+      "lon": 0.4816456
+    },
+    {
+      "type": "node",
+      "id": 1828775405,
+      "lat": 40.5392443,
+      "lon": 0.4813986
+    },
+    {
+      "type": "node",
+      "id": 1828775409,
+      "lat": 40.5393452,
+      "lon": 0.4816204
+    },
+    {
+      "type": "node",
+      "id": 1828775411,
+      "lat": 40.5393085,
+      "lon": 0.4813915
+    },
+    {
+      "type": "node",
+      "id": 1828775414,
+      "lat": 40.5393385,
+      "lon": 0.4814088
+    },
+    {
+      "type": "node",
+      "id": 1828775415,
+      "lat": 40.5391995,
+      "lon": 0.4815852
+    },
+    {
+      "type": "node",
+      "id": 1828775419,
+      "lat": 40.5393073,
+      "lon": 0.4816444
+    },
+    {
+      "type": "node",
+      "id": 1828775420,
+      "lat": 40.5391856,
+      "lon": 0.4815292
+    },
+    {
+      "type": "node",
+      "id": 1828775437,
+      "lat": 40.539276,
+      "lon": 0.481388
+    },
+    {
+      "type": "node",
+      "id": 1828775439,
+      "lat": 40.539217,
+      "lon": 0.4814222
+    },
+    {
+      "type": "node",
+      "id": 1828775442,
+      "lat": 40.539383,
+      "lon": 0.4815264
+    },
+    {
+      "type": "node",
+      "id": 1828775445,
+      "lat": 40.5391919,
+      "lon": 0.4814709
+    },
+    {
+      "type": "node",
+      "id": 1828775448,
+      "lat": 40.5393602,
+      "lon": 0.4814342
+    },
+    {
+      "type": "node",
+      "id": 1828775454,
+      "lat": 40.5392267,
+      "lon": 0.4816238
+    },
+    {
+      "type": "node",
+      "id": 2920838869,
+      "lat": 40.5387427,
+      "lon": 0.4762315
+    },
+    {
+      "type": "node",
+      "id": 3032301205,
+      "lat": 40.5381702,
+      "lon": 0.4679279
+    },
+    {
+      "type": "node",
+      "id": 3032301226,
+      "lat": 40.5385127,
+      "lon": 0.474146
+    },
+    {
+      "type": "node",
+      "id": 3032301260,
+      "lat": 40.538795,
+      "lon": 0.4698293
+    },
+    {
+      "type": "node",
+      "id": 3032301263,
+      "lat": 40.5388317,
+      "lon": 0.4770593
+    },
+    {
+      "type": "node",
+      "id": 3032301279,
+      "lat": 40.5390409,
+      "lon": 0.4717909,
+      "tags": {
+        "direction": "backward",
+        "side": "left",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035007429,
+      "lat": 40.5372181,
+      "lon": 0.4653811
+    },
+    {
+      "type": "node",
+      "id": 3035007432,
+      "lat": 40.5372932,
+      "lon": 0.465468
+    },
+    {
+      "type": "node",
+      "id": 3035967381,
+      "lat": 40.5374579,
+      "lon": 0.4657902
+    },
+    {
+      "type": "node",
+      "id": 3035967383,
+      "lat": 40.5375314,
+      "lon": 0.4659994
+    },
+    {
+      "type": "node",
+      "id": 3035967388,
+      "lat": 40.5376468,
+      "lon": 0.4663279
+    },
+    {
+      "type": "node",
+      "id": 3035967389,
+      "lat": 40.5377315,
+      "lon": 0.4665986
+    },
+    {
+      "type": "node",
+      "id": 3035967392,
+      "lat": 40.5378544,
+      "lon": 0.46696
+    },
+    {
+      "type": "node",
+      "id": 3035967402,
+      "lat": 40.5380345,
+      "lon": 0.4674897
+    },
+    {
+      "type": "node",
+      "id": 3035967535,
+      "lat": 40.5383582,
+      "lon": 0.4684987
+    },
+    {
+      "type": "node",
+      "id": 3035967556,
+      "lat": 40.5384939,
+      "lon": 0.4738502,
+      "tags": {
+        "direction": "forward",
+        "maxspeed": "50",
+        "side": "right",
+        "traffic_sign": "ES:R301"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967559,
+      "lat": 40.5385003,
+      "lon": 0.4737624
+    },
+    {
+      "type": "node",
+      "id": 3035967563,
+      "lat": 40.5385168,
+      "lon": 0.4736788
+    },
+    {
+      "type": "node",
+      "id": 3035967568,
+      "lat": 40.5385437,
+      "lon": 0.4735421
+    },
+    {
+      "type": "node",
+      "id": 3035967570,
+      "lat": 40.5385486,
+      "lon": 0.474492,
+      "tags": {
+        "direction": "forward",
+        "side": "right",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967574,
+      "lat": 40.5385808,
+      "lon": 0.4748054,
+      "tags": {
+        "direction": "forward",
+        "side": "right",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967582,
+      "lat": 40.5386146,
+      "lon": 0.4751538,
+      "tags": {
+        "direction": "forward",
+        "side": "right",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967596,
+      "lat": 40.5387281,
+      "lon": 0.473116
+    },
+    {
+      "type": "node",
+      "id": 3035967602,
+      "lat": 40.538782,
+      "lon": 0.4697891
+    },
+    {
+      "type": "node",
+      "id": 3035967611,
+      "lat": 40.5388849,
+      "lon": 0.4781743
+    },
+    {
+      "type": "node",
+      "id": 3035967616,
+      "lat": 40.5388946,
+      "lon": 0.4776582,
+      "tags": {
+        "direction": "backward",
+        "side": "left",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967620,
+      "lat": 40.5389091,
+      "lon": 0.478105
+    },
+    {
+      "type": "node",
+      "id": 3035967622,
+      "lat": 40.5389139,
+      "lon": 0.4779377
+    },
+    {
+      "type": "node",
+      "id": 3035967623,
+      "lat": 40.5389172,
+      "lon": 0.477835
+    },
+    {
+      "type": "node",
+      "id": 3035967624,
+      "lat": 40.5389172,
+      "lon": 0.4780436,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967630,
+      "lat": 40.5389365,
+      "lon": 0.47266
+    },
+    {
+      "type": "node",
+      "id": 3035967632,
+      "lat": 40.5389445,
+      "lon": 0.4779123
+    },
+    {
+      "type": "node",
+      "id": 3035967733,
+      "lat": 40.5389461,
+      "lon": 0.4703272
+    },
+    {
+      "type": "node",
+      "id": 3035967734,
+      "lat": 40.5389473,
+      "lon": 0.4703773,
+      "tags": {
+        "direction": "forward",
+        "side": "right",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967735,
+      "lat": 40.5389558,
+      "lon": 0.4785032
+    },
+    {
+      "type": "node",
+      "id": 3035967744,
+      "lat": 40.5389767,
+      "lon": 0.4780542
+    },
+    {
+      "type": "node",
+      "id": 3035967747,
+      "lat": 40.5389864,
+      "lon": 0.4786027
+    },
+    {
+      "type": "node",
+      "id": 3035967750,
+      "lat": 40.5390039,
+      "lon": 0.4723896
+    },
+    {
+      "type": "node",
+      "id": 3035967751,
+      "lat": 40.5390052,
+      "lon": 0.4704366
+    },
+    {
+      "type": "node",
+      "id": 3035967753,
+      "lat": 40.5390068,
+      "lon": 0.470642
+    },
+    {
+      "type": "node",
+      "id": 3035967756,
+      "lat": 40.5390133,
+      "lon": 0.4706865
+    },
+    {
+      "type": "node",
+      "id": 3035967757,
+      "lat": 40.5390137,
+      "lon": 0.4786726
+    },
+    {
+      "type": "node",
+      "id": 3035967758,
+      "lat": 40.5390181,
+      "lon": 0.4710825
+    },
+    {
+      "type": "node",
+      "id": 3035967761,
+      "lat": 40.5390202,
+      "lon": 0.4722682
+    },
+    {
+      "type": "node",
+      "id": 3035967762,
+      "lat": 40.5390218,
+      "lon": 0.4786154
+    },
+    {
+      "type": "node",
+      "id": 3035967763,
+      "lat": 40.539024,
+      "lon": 0.4713271
+    },
+    {
+      "type": "node",
+      "id": 3035967764,
+      "lat": 40.5390282,
+      "lon": 0.4784947,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967765,
+      "lat": 40.5390298,
+      "lon": 0.4721157,
+      "tags": {
+        "direction": "backward",
+        "side": "left",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967766,
+      "lat": 40.539031,
+      "lon": 0.4714447
+    },
+    {
+      "type": "node",
+      "id": 3035967767,
+      "lat": 40.5390326,
+      "lon": 0.4709703,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967768,
+      "lat": 40.5390342,
+      "lon": 0.4708856
+    },
+    {
+      "type": "node",
+      "id": 3035967769,
+      "lat": 40.539039,
+      "lon": 0.4715019
+    },
+    {
+      "type": "node",
+      "id": 3035967770,
+      "lat": 40.5390406,
+      "lon": 0.4715823
+    },
+    {
+      "type": "node",
+      "id": 3035967772,
+      "lat": 40.5390475,
+      "lon": 0.4716625
+    },
+    {
+      "type": "node",
+      "id": 3035967777,
+      "lat": 40.5390569,
+      "lon": 0.4790342
+    },
+    {
+      "type": "node",
+      "id": 3035967781,
+      "lat": 40.5390659,
+      "lon": 0.4781908
+    },
+    {
+      "type": "node",
+      "id": 3035967782,
+      "lat": 40.5390696,
+      "lon": 0.4707183
+    },
+    {
+      "type": "node",
+      "id": 3035967783,
+      "lat": 40.5390728,
+      "lon": 0.471576
+    },
+    {
+      "type": "node",
+      "id": 3035967791,
+      "lat": 40.5391006,
+      "lon": 0.4794508
+    },
+    {
+      "type": "node",
+      "id": 3035967792,
+      "lat": 40.5391034,
+      "lon": 0.4708644
+    },
+    {
+      "type": "node",
+      "id": 3035967794,
+      "lat": 40.5391034,
+      "lon": 0.4714849,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967805,
+      "lat": 40.5391388,
+      "lon": 0.4709512
+    },
+    {
+      "type": "node",
+      "id": 3035967807,
+      "lat": 40.5391585,
+      "lon": 0.4799896
+    },
+    {
+      "type": "node",
+      "id": 3035967812,
+      "lat": 40.5391792,
+      "lon": 0.4714096
+    },
+    {
+      "type": "node",
+      "id": 3035967813,
+      "lat": 40.5391828,
+      "lon": 0.4802139,
+      "tags": {
+        "lanes": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967815,
+      "lat": 40.5391966,
+      "lon": 0.4710618
+    },
+    {
+      "type": "node",
+      "id": 3035967816,
+      "lat": 40.5391988,
+      "lon": 0.4803616,
+      "tags": {
+        "direction": "forward",
+        "side": "right",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967820,
+      "lat": 40.5392203,
+      "lon": 0.4805773
+    },
+    {
+      "type": "node",
+      "id": 3035967824,
+      "lat": 40.539231,
+      "lon": 0.4806846,
+      "tags": {
+        "direction": "forward",
+        "side": "right",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967825,
+      "lat": 40.53923,
+      "lon": 0.4813144,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967831,
+      "lat": 40.5392535,
+      "lon": 0.4810012,
+      "tags": {
+        "direction": "forward",
+        "side": "right",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967837,
+      "lat": 40.539268,
+      "lon": 0.4817573
+    },
+    {
+      "type": "node",
+      "id": 3035967841,
+      "lat": 40.5392821,
+      "lon": 0.4712579
+    },
+    {
+      "type": "node",
+      "id": 3035967844,
+      "lat": 40.5392954,
+      "lon": 0.4812681
+    },
+    {
+      "type": "node",
+      "id": 3035967866,
+      "lat": 40.5393565,
+      "lon": 0.4817403,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967868,
+      "lat": 40.5393591,
+      "lon": 0.4820094,
+      "tags": {
+        "direction": "backward",
+        "side": "left",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967881,
+      "lat": 40.5394173,
+      "lon": 0.4823453,
+      "tags": {
+        "direction": "backward",
+        "side": "left",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035967899,
+      "lat": 40.5394784,
+      "lon": 0.4826228,
+      "tags": {
+        "direction": "backward",
+        "side": "left",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3035968164,
+      "lat": 40.5402107,
+      "lon": 0.4841804
+    },
+    {
+      "type": "node",
+      "id": 3036156969,
+      "lat": 40.539847,
+      "lon": 0.483597
+    },
+    {
+      "type": "node",
+      "id": 3036156971,
+      "lat": 40.5398595,
+      "lon": 0.4836173
+    },
+    {
+      "type": "node",
+      "id": 3036156979,
+      "lat": 40.53995,
+      "lon": 0.4837643
+    },
+    {
+      "type": "node",
+      "id": 3036157000,
+      "lat": 40.54018,
+      "lon": 0.4841334
+    },
+    {
+      "type": "node",
+      "id": 3036157037,
+      "lat": 40.5405584,
+      "lon": 0.4846993
+    },
+    {
+      "type": "node",
+      "id": 3036157053,
+      "lat": 40.5406575,
+      "lon": 0.48485
+    },
+    {
+      "type": "node",
+      "id": 3036157059,
+      "lat": 40.5409595,
+      "lon": 0.4853092
+    },
+    {
+      "type": "node",
+      "id": 3036948443,
+      "lat": 40.5415566,
+      "lon": 0.4862839,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3036948491,
+      "lat": 40.541831,
+      "lon": 0.4865545,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3036948501,
+      "lat": 40.5419334,
+      "lon": 0.4867789,
+      "tags": {
+        "direction": "backward",
+        "side": "left",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3036948506,
+      "lat": 40.5420996,
+      "lon": 0.487036,
+      "tags": {
+        "direction": "backward",
+        "side": "left",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3036948513,
+      "lat": 40.5422591,
+      "lon": 0.4872724,
+      "tags": {
+        "direction": "backward",
+        "side": "left",
+        "traffic_calming": "rumble_strip",
+        "traffic_sign": "ES:P15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3036948515,
+      "lat": 40.5423534,
+      "lon": 0.4874143
+    },
+    {
+      "type": "node",
+      "id": 3036948521,
+      "lat": 40.5425448,
+      "lon": 0.4877006
+    },
+    {
+      "type": "node",
+      "id": 5120233599,
+      "lat": 40.5438812,
+      "lon": 0.4896355
+    },
+    {
+      "type": "node",
+      "id": 5120233600,
+      "lat": 40.5440818,
+      "lon": 0.4898325
+    },
+    {
+      "type": "node",
+      "id": 5120233601,
+      "lat": 40.5441908,
+      "lon": 0.4899883,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5120233602,
+      "lat": 40.5441435,
+      "lon": 0.4898585
+    },
+    {
+      "type": "node",
+      "id": 5120233603,
+      "lat": 40.5441965,
+      "lon": 0.4898585
+    },
+    {
+      "type": "node",
+      "id": 5120233606,
+      "lat": 40.5444511,
+      "lon": 0.489818
+    },
+    {
+      "type": "node",
+      "id": 5120233614,
+      "lat": 40.5443087,
+      "lon": 0.4901427
+    },
+    {
+      "type": "node",
+      "id": 5120233615,
+      "lat": 40.5443493,
+      "lon": 0.4901624
+    },
+    {
+      "type": "node",
+      "id": 5120233616,
+      "lat": 40.5442361,
+      "lon": 0.4899986
+    },
+    {
+      "type": "node",
+      "id": 5120233617,
+      "lat": 40.5442476,
+      "lon": 0.4900549
+    },
+    {
+      "type": "node",
+      "id": 5120233618,
+      "lat": 40.5444708,
+      "lon": 0.4901208
+    },
+    {
+      "type": "node",
+      "id": 5120233619,
+      "lat": 40.5444856,
+      "lon": 0.4898561
+    },
+    {
+      "type": "node",
+      "id": 5120233620,
+      "lat": 40.5443196,
+      "lon": 0.4898076
+    },
+    {
+      "type": "node",
+      "id": 5120233645,
+      "lat": 40.5429943,
+      "lon": 0.4883683
+    },
+    {
+      "type": "node",
+      "id": 5906889359,
+      "lat": 40.5397158,
+      "lon": 0.48331
+    },
+    {
+      "type": "node",
+      "id": 6000388146,
+      "lat": 40.5442952,
+      "lon": 0.4898274
+    },
+    {
+      "type": "node",
+      "id": 11202688460,
+      "lat": 40.5365249,
+      "lon": 0.4650897
+    },
+    {
+      "type": "node",
+      "id": 11269394412,
+      "lat": 40.5386125,
+      "lon": 0.4692593,
+      "tags": {
+        "distance": "2",
+        "highway": "milestone",
+        "ref": "TV-3321"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12228012155,
+      "lat": 40.5390424,
+      "lon": 0.4717715
+    },
+    {
+      "type": "node",
+      "id": 12228012166,
+      "lat": 40.5390381,
+      "lon": 0.4718731
+    },
+    {
+      "type": "node",
+      "id": 12228086662,
+      "lat": 40.5421644,
+      "lon": 0.4871321
+    },
+    {
+      "type": "node",
+      "id": 12228086668,
+      "lat": 40.5395286,
+      "lon": 0.4828066
+    },
+    {
+      "type": "way",
+      "id": 48555740,
+      "nodes": [
+        616779233,
+        779331929,
+        779331932,
+        3035967815,
+        779331946,
+        603810913,
+        779331955,
+        616779235,
+        779331963,
+        616779236,
+        3035967763,
+        779331967,
+        616779237,
+        779331971,
+        3035967812,
+        779331979,
+        616779239,
+        779331988,
+        3035967841,
+        616779233
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "9"
+      }
+    },
+    {
+      "type": "way",
+      "id": 50844339,
+      "nodes": [
+        648513223,
+        3036948501,
+        3036948506,
+        12228086662,
+        3036948513,
+        3036948515
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "no",
+        "parking:condition:left": "free",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 50844340,
+      "nodes": [
+        648509180,
+        648509103,
+        648509172,
+        5120233616,
+        5120233617,
+        648509167
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 50844791,
+      "nodes": [
+        648517896,
+        3035967866,
+        1828775409
+      ],
+      "tags": {
+        "highway": "secondary_link",
+        "lanes": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "right",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62275205,
+      "nodes": [
+        778128398,
+        778128540,
+        3035967781,
+        778128532,
+        778128525,
+        616779248,
+        778128511,
+        3035967611,
+        778128498,
+        778128488,
+        778128483,
+        778128479,
+        778128475,
+        778128471,
+        778128427,
+        778128466,
+        778128460,
+        778128450,
+        778128398
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "right",
+        "source": "PNOA;datos oficiales",
+        "width": "8"
+      }
+    },
+    {
+      "type": "way",
+      "id": 72389992,
+      "nodes": [
+        833017104,
+        11202688460
+      ],
+      "tags": {
+        "bridge": "yes",
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "90",
+        "name": "Pont de l'Estaci\u00f3",
+        "name:ca": "Pont de l'Estaci\u00f3",
+        "overtaking": "no",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "7",
+        "wikidata": "Q110642768"
+      }
+    },
+    {
+      "type": "way",
+      "id": 119486337,
+      "nodes": [
+        1342440136,
+        648513223
+      ],
+      "tags": {
+        "highway": "secondary",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "yes",
+        "ref": "TV-3321",
+        "source": "PNOA;datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 119486338,
+      "nodes": [
+        1342440135,
+        648513213
+      ],
+      "tags": {
+        "highway": "secondary",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "yes",
+        "ref": "TV-3321",
+        "source": "PNOA;datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 119486544,
+      "nodes": [
+        1342440138,
+        1690644976,
+        1342440139,
+        1690644987,
+        1690644988,
+        1342440137,
+        1690644986,
+        1342440135,
+        1690644981,
+        1342440133,
+        1342440132,
+        1690644983,
+        1342440134,
+        1690644967,
+        1342440136,
+        1690644979,
+        1690644974,
+        1342440138
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121250486,
+      "nodes": [
+        648513223,
+        3036948491,
+        1342440138
+      ],
+      "tags": {
+        "highway": "secondary",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "yes",
+        "ref": "TV-3321",
+        "source": "PNOA;datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121250488,
+      "nodes": [
+        648513213,
+        3036948443,
+        1342440133
+      ],
+      "tags": {
+        "highway": "secondary",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "yes",
+        "ref": "TV-3321"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171916354,
+      "nodes": [
+        1828775437,
+        1828775405,
+        1828775439,
+        1828775445,
+        1828775420,
+        1828775415,
+        1828775454,
+        1828775402,
+        1828775419,
+        1828775409,
+        1828775399,
+        1828775442,
+        1828775396,
+        1828775448,
+        1828775414,
+        1828775411,
+        1828775437
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171916358,
+      "nodes": [
+        1828775414,
+        3035967844,
+        679022138
+      ],
+      "tags": {
+        "highway": "secondary_link",
+        "lanes": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "right",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171916369,
+      "nodes": [
+        1828775454,
+        3035967837,
+        648517896
+      ],
+      "tags": {
+        "highway": "secondary_link",
+        "lanes": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172146701,
+      "nodes": [
+        679022138,
+        3035967825,
+        1828775439
+      ],
+      "tags": {
+        "highway": "secondary_link",
+        "lanes": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172146703,
+      "nodes": [
+        648517896,
+        3035967868,
+        679022139,
+        3035967881,
+        3035967899,
+        12228086668,
+        616988049
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "no",
+        "parking:condition:left": "free",
+        "parking:lane:both": "no_stopping",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588028,
+      "nodes": [
+        3035967772,
+        12228012155,
+        3032301279,
+        12228012166,
+        3035967765,
+        3035967761,
+        3035967750,
+        616779247,
+        3035967630,
+        1692221648,
+        3035967596,
+        674039535,
+        3035967568,
+        3035967563,
+        3035967559,
+        3035967556,
+        616779246,
+        3032301226,
+        3035967570,
+        3035967574,
+        3035967582,
+        662396632,
+        2920838869,
+        3032301263,
+        662396625,
+        3035967616,
+        3035967623
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "no",
+        "parking:condition:left": "free",
+        "parking:lane:both": "no_stopping",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "8"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588029,
+      "nodes": [
+        3035967816,
+        3035967820,
+        3035967824
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "no",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588030,
+      "nodes": [
+        3035967757,
+        3035967777,
+        3035967791,
+        662290300
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "no",
+        "parking:condition:left": "free",
+        "parking:lane:both": "no_stopping",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588031,
+      "nodes": [
+        3035967824,
+        662396614,
+        3035967831,
+        679022138
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "no",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588032,
+      "nodes": [
+        662290300,
+        3035967807,
+        3035967813,
+        3035967816
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "no",
+        "parking:condition:left": "free",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588033,
+      "nodes": [
+        778128525,
+        3035967744,
+        3035967632,
+        3035967623
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "right",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588035,
+      "nodes": [
+        778128475,
+        3035967735,
+        3035967747,
+        3035967757
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588037,
+      "nodes": [
+        3035967757,
+        3035967762,
+        3035967764,
+        778128466
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "right",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588038,
+      "nodes": [
+        3035967623,
+        3035967622,
+        3035967624,
+        3035967620,
+        3035967611
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588042,
+      "nodes": [
+        833017045,
+        3035967535,
+        3032301205,
+        833017027,
+        3035967402,
+        3035967392,
+        3035967389,
+        3035967388,
+        3035967383,
+        3035967381,
+        833017099,
+        3035007432,
+        3035007429,
+        603810914,
+        833017104
+      ],
+      "tags": {
+        "change:lanes:backward": "yes",
+        "change:lanes:forward": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "90",
+        "overtaking": "yes",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "8"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588044,
+      "nodes": [
+        3035967733,
+        3032301260,
+        3035967602,
+        833017041,
+        11269394412,
+        833017045
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "90",
+        "overtaking": "no",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "8"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588051,
+      "nodes": [
+        3035967772,
+        3035967783,
+        3035967794,
+        779331971
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588054,
+      "nodes": [
+        3035967763,
+        3035967766,
+        3035967769,
+        3035967770,
+        3035967772
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588057,
+      "nodes": [
+        3035967815,
+        3035967805,
+        3035967792,
+        3035967782,
+        3035967751,
+        3035967733
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299588060,
+      "nodes": [
+        3035967733,
+        3035967734,
+        3035967753,
+        3035967756,
+        3035967768,
+        3035967767,
+        3035967758,
+        616779235
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "parking:lane:both": "no_stopping",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299596901,
+      "nodes": [
+        616988049,
+        5906889359,
+        676818501,
+        3036156969,
+        3036156971,
+        3036156979,
+        3036157000,
+        3035968164,
+        3036157037,
+        3036157053,
+        3036157059,
+        648513213
+      ],
+      "tags": {
+        "change:lanes:backward": "yes",
+        "change:lanes:forward": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "yes",
+        "parking:condition:left": "free",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299661377,
+      "nodes": [
+        3036948515,
+        3036948521,
+        5120233645,
+        779378152
+      ],
+      "tags": {
+        "change:lanes:backward": "yes",
+        "change:lanes:forward": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "yes",
+        "parking:condition:left": "free",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 526554093,
+      "nodes": [
+        648509180,
+        5120233603,
+        5120233602,
+        5120233600
+      ],
+      "tags": {
+        "change:lanes": "yes",
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "yes",
+        "overtaking": "yes",
+        "parking:condition:left": "free",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 526554094,
+      "nodes": [
+        5120233600,
+        5120233601,
+        648509167
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "yes",
+        "overtaking": "yes",
+        "parking:condition:left": "free",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "surface": "asphalt",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587821909,
+      "nodes": [
+        779378152,
+        828651211
+      ],
+      "tags": {
+        "change:lanes:backward": "yes",
+        "change:lanes:forward": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "yes",
+        "parking:condition:left": "free",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587821911,
+      "nodes": [
+        828651211,
+        676818502,
+        5120233599,
+        5120233600
+      ],
+      "tags": {
+        "change:lanes:backward": "yes",
+        "change:lanes:forward": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Ronda de Circumval\u00b7laci\u00f3",
+        "name:ca": "Ronda de Circumval\u00b7laci\u00f3",
+        "oneway": "no",
+        "overtaking": "yes",
+        "parking:condition:left": "free",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "no_stopping",
+        "ref": "TV-3321",
+        "sidewalk": "left",
+        "source": "PNOA;datos oficiales",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587821912,
+      "nodes": [
+        5120233614,
+        5120233615,
+        648509152,
+        648509149,
+        5120233618,
+        648509144
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587821913,
+      "nodes": [
+        648509167,
+        5120233614
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587821914,
+      "nodes": [
+        648509144,
+        648509129,
+        648509126,
+        648509122,
+        5120233619,
+        5120233606,
+        648509116,
+        648509112,
+        5120233620,
+        6000388146,
+        648509180
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "ref": "TV-3321",
+        "source": "PNOA; datos oficiales"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1209097384,
+      "nodes": [
+        11202688460,
+        859747800
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "90",
+        "name": "Pont de l'Estaci\u00f3",
+        "name:ca": "Pont de l'Estaci\u00f3",
+        "overtaking": "no",
+        "ref": "TV-3321",
+        "source": "PNOA;datos oficiales",
+        "width": "7",
+        "wikidata": "Q110642768"
+      }
+    }
+  ]
+}

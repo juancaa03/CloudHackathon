@@ -1,0 +1,908 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.5 1bd436f1",
+  "osm3s": {
+    "timestamp_osm_base": "2025-02-15T00:19:33Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1407350058,
+      "lat": 41.1902361,
+      "lon": 1.1079495
+    },
+    {
+      "type": "node",
+      "id": 1407350296,
+      "lat": 41.1905388,
+      "lon": 1.1080086
+    },
+    {
+      "type": "node",
+      "id": 1407351483,
+      "lat": 41.1923635,
+      "lon": 1.108427
+    },
+    {
+      "type": "node",
+      "id": 1407351487,
+      "lat": 41.1919315,
+      "lon": 1.1083358
+    },
+    {
+      "type": "node",
+      "id": 1407517204,
+      "lat": 41.179776,
+      "lon": 1.0991624
+    },
+    {
+      "type": "node",
+      "id": 1407526596,
+      "lat": 41.1810302,
+      "lon": 1.1000605
+    },
+    {
+      "type": "node",
+      "id": 1407526597,
+      "lat": 41.1810181,
+      "lon": 1.1003234
+    },
+    {
+      "type": "node",
+      "id": 1407526598,
+      "lat": 41.1810383,
+      "lon": 1.1007257
+    },
+    {
+      "type": "node",
+      "id": 1407526599,
+      "lat": 41.1809939,
+      "lon": 1.1008974
+    },
+    {
+      "type": "node",
+      "id": 1407526600,
+      "lat": 41.1810948,
+      "lon": 1.1003985
+    },
+    {
+      "type": "node",
+      "id": 1407526601,
+      "lat": 41.1808809,
+      "lon": 1.099803
+    },
+    {
+      "type": "node",
+      "id": 1407526603,
+      "lat": 41.1803318,
+      "lon": 1.0994758
+    },
+    {
+      "type": "node",
+      "id": 1407526604,
+      "lat": 41.1810706,
+      "lon": 1.1013587
+    },
+    {
+      "type": "node",
+      "id": 1407526605,
+      "lat": 41.1798493,
+      "lon": 1.0991795
+    },
+    {
+      "type": "node",
+      "id": 1407526606,
+      "lat": 41.1804075,
+      "lon": 1.0994434
+    },
+    {
+      "type": "node",
+      "id": 1407526607,
+      "lat": 41.1802318,
+      "lon": 1.0992707
+    },
+    {
+      "type": "node",
+      "id": 1407526608,
+      "lat": 41.1808284,
+      "lon": 1.0998781
+    },
+    {
+      "type": "node",
+      "id": 1407528373,
+      "lat": 41.1812853,
+      "lon": 1.1017832
+    },
+    {
+      "type": "node",
+      "id": 1407528375,
+      "lat": 41.1831499,
+      "lon": 1.1042287
+    },
+    {
+      "type": "node",
+      "id": 1407528377,
+      "lat": 41.1827381,
+      "lon": 1.1038264
+    },
+    {
+      "type": "node",
+      "id": 1407528379,
+      "lat": 41.1835536,
+      "lon": 1.1044486
+    },
+    {
+      "type": "node",
+      "id": 1407528381,
+      "lat": 41.1841551,
+      "lon": 1.1046471
+    },
+    {
+      "type": "node",
+      "id": 1407528383,
+      "lat": 41.1852089,
+      "lon": 1.1047812
+    },
+    {
+      "type": "node",
+      "id": 1407528385,
+      "lat": 41.1856206,
+      "lon": 1.1049904
+    },
+    {
+      "type": "node",
+      "id": 1407528387,
+      "lat": 41.1861374,
+      "lon": 1.1056127
+    },
+    {
+      "type": "node",
+      "id": 1407528389,
+      "lat": 41.1864039,
+      "lon": 1.1058863
+    },
+    {
+      "type": "node",
+      "id": 1407528392,
+      "lat": 41.1874696,
+      "lon": 1.1063369
+    },
+    {
+      "type": "node",
+      "id": 1407528394,
+      "lat": 41.1877361,
+      "lon": 1.1065515
+    },
+    {
+      "type": "node",
+      "id": 1407528396,
+      "lat": 41.1880348,
+      "lon": 1.1069484
+    },
+    {
+      "type": "node",
+      "id": 1407528402,
+      "lat": 41.1886123,
+      "lon": 1.1076883
+    },
+    {
+      "type": "node",
+      "id": 1615922210,
+      "lat": 41.2098698,
+      "lon": 1.1434267
+    },
+    {
+      "type": "node",
+      "id": 2022218323,
+      "lat": 41.209842,
+      "lon": 1.1435271
+    },
+    {
+      "type": "node",
+      "id": 2098901488,
+      "lat": 41.1805994,
+      "lon": 1.0996926
+    },
+    {
+      "type": "node",
+      "id": 2109164419,
+      "lat": 41.1805622,
+      "lon": 1.0995617
+    },
+    {
+      "type": "node",
+      "id": 2116040507,
+      "lat": 41.1858999,
+      "lon": 1.1053267
+    },
+    {
+      "type": "node",
+      "id": 2975908978,
+      "lat": 41.1813797,
+      "lon": 1.1019038
+    },
+    {
+      "type": "node",
+      "id": 3865147532,
+      "lat": 41.1911128,
+      "lon": 1.1081434
+    },
+    {
+      "type": "node",
+      "id": 3865147551,
+      "lat": 41.1933489,
+      "lon": 1.108665
+    },
+    {
+      "type": "node",
+      "id": 3865147553,
+      "lat": 41.193371,
+      "lon": 1.1086972
+    },
+    {
+      "type": "node",
+      "id": 3865147555,
+      "lat": 41.1934015,
+      "lon": 1.1087107,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3865147556,
+      "lat": 41.1934052,
+      "lon": 1.108642
+    },
+    {
+      "type": "node",
+      "id": 3865148458,
+      "lat": 41.1934209,
+      "lon": 1.1087316
+    },
+    {
+      "type": "node",
+      "id": 3865148461,
+      "lat": 41.1934517,
+      "lon": 1.1086959
+    },
+    {
+      "type": "node",
+      "id": 3865148462,
+      "lat": 41.1934538,
+      "lon": 1.1087412
+    },
+    {
+      "type": "node",
+      "id": 3865148463,
+      "lat": 41.1934592,
+      "lon": 1.1086516
+    },
+    {
+      "type": "node",
+      "id": 3865148464,
+      "lat": 41.1934652,
+      "lon": 1.1087839
+    },
+    {
+      "type": "node",
+      "id": 3865148465,
+      "lat": 41.1934756,
+      "lon": 1.1086118
+    },
+    {
+      "type": "node",
+      "id": 3865148468,
+      "lat": 41.1934912,
+      "lon": 1.1088286
+    },
+    {
+      "type": "node",
+      "id": 3865148471,
+      "lat": 41.1935044,
+      "lon": 1.108575
+    },
+    {
+      "type": "node",
+      "id": 3865148475,
+      "lat": 41.1935272,
+      "lon": 1.1088588
+    },
+    {
+      "type": "node",
+      "id": 3865148476,
+      "lat": 41.1935407,
+      "lon": 1.1085526
+    },
+    {
+      "type": "node",
+      "id": 3865148479,
+      "lat": 41.1935687,
+      "lon": 1.1088707
+    },
+    {
+      "type": "node",
+      "id": 3865148481,
+      "lat": 41.1935804,
+      "lon": 1.108547
+    },
+    {
+      "type": "node",
+      "id": 3865148485,
+      "lat": 41.1936015,
+      "lon": 1.1088664
+    },
+    {
+      "type": "node",
+      "id": 3865148490,
+      "lat": 41.1936194,
+      "lon": 1.1085588
+    },
+    {
+      "type": "node",
+      "id": 3865148492,
+      "lat": 41.1936322,
+      "lon": 1.1088505
+    },
+    {
+      "type": "node",
+      "id": 3865148499,
+      "lat": 41.193655,
+      "lon": 1.1085886
+    },
+    {
+      "type": "node",
+      "id": 3865148503,
+      "lat": 41.1936587,
+      "lon": 1.1088244
+    },
+    {
+      "type": "node",
+      "id": 3865148506,
+      "lat": 41.1936808,
+      "lon": 1.1086326
+    },
+    {
+      "type": "node",
+      "id": 3865148507,
+      "lat": 41.1936808,
+      "lon": 1.1087852
+    },
+    {
+      "type": "node",
+      "id": 3865148510,
+      "lat": 41.1936899,
+      "lon": 1.1086619
+    },
+    {
+      "type": "node",
+      "id": 3865148511,
+      "lat": 41.193692,
+      "lon": 1.1087456
+    },
+    {
+      "type": "node",
+      "id": 3865148512,
+      "lat": 41.1936951,
+      "lon": 1.1087036
+    },
+    {
+      "type": "node",
+      "id": 3865148519,
+      "lat": 41.1937359,
+      "lon": 1.1086911
+    },
+    {
+      "type": "node",
+      "id": 3865148521,
+      "lat": 41.1937562,
+      "lon": 1.1087046,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3865148523,
+      "lat": 41.193771,
+      "lon": 1.1087917
+    },
+    {
+      "type": "node",
+      "id": 3865148524,
+      "lat": 41.1937839,
+      "lon": 1.108734
+    },
+    {
+      "type": "node",
+      "id": 3865148529,
+      "lat": 41.1938181,
+      "lon": 1.1087733,
+      "tags": {
+        "direction": "forward",
+        "highway": "crossing",
+        "side": "right",
+        "traffic_sign": "ES:S13"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4638128372,
+      "lat": 41.1799982,
+      "lon": 1.0990157,
+      "tags": {
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4638128373,
+      "lat": 41.1799231,
+      "lon": 1.099205,
+      "tags": {
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5465452796,
+      "lat": 41.1845292,
+      "lon": 1.1047102
+    },
+    {
+      "type": "node",
+      "id": 7106689469,
+      "lat": 41.18712,
+      "lon": 1.1061891
+    },
+    {
+      "type": "node",
+      "id": 7125113022,
+      "lat": 41.1873647,
+      "lon": 1.1062926
+    },
+    {
+      "type": "node",
+      "id": 7125113027,
+      "lat": 41.1864771,
+      "lon": 1.1059173
+    },
+    {
+      "type": "node",
+      "id": 7249581936,
+      "lat": 41.1798897,
+      "lon": 1.0988994
+    },
+    {
+      "type": "node",
+      "id": 7249581951,
+      "lat": 41.1800614,
+      "lon": 1.0992685
+    },
+    {
+      "type": "node",
+      "id": 9037730198,
+      "lat": 41.1887046,
+      "lon": 1.1085111
+    },
+    {
+      "type": "node",
+      "id": 9037730200,
+      "lat": 41.1883093,
+      "lon": 1.1074286
+    },
+    {
+      "type": "node",
+      "id": 9037730204,
+      "lat": 41.1885635,
+      "lon": 1.1081036
+    },
+    {
+      "type": "node",
+      "id": 9037730210,
+      "lat": 41.188715,
+      "lon": 1.1080812
+    },
+    {
+      "type": "node",
+      "id": 9037730214,
+      "lat": 41.1887496,
+      "lon": 1.1077663
+    },
+    {
+      "type": "node",
+      "id": 9037730215,
+      "lat": 41.1884768,
+      "lon": 1.1078086
+    },
+    {
+      "type": "node",
+      "id": 9037735117,
+      "lat": 41.189067,
+      "lon": 1.1078552
+    },
+    {
+      "type": "node",
+      "id": 9241006870,
+      "lat": 41.181043,
+      "lon": 1.1011929
+    },
+    {
+      "type": "node",
+      "id": 9368590265,
+      "lat": 41.1885156,
+      "lon": 1.1076331
+    },
+    {
+      "type": "node",
+      "id": 9368590266,
+      "lat": 41.188445,
+      "lon": 1.1076754
+    },
+    {
+      "type": "node",
+      "id": 9368590267,
+      "lat": 41.1888418,
+      "lon": 1.1078097
+    },
+    {
+      "type": "node",
+      "id": 9368590268,
+      "lat": 41.1888473,
+      "lon": 1.1079314
+    },
+    {
+      "type": "node",
+      "id": 9368590269,
+      "lat": 41.1887566,
+      "lon": 1.1080243
+    },
+    {
+      "type": "node",
+      "id": 9368590270,
+      "lat": 41.1886787,
+      "lon": 1.1082145
+    },
+    {
+      "type": "node",
+      "id": 9368590272,
+      "lat": 41.1886262,
+      "lon": 1.1082287
+    },
+    {
+      "type": "way",
+      "id": 127102558,
+      "nodes": [
+        1407517204,
+        1407526605,
+        4638128373,
+        7249581951,
+        1407526603,
+        2098901488
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 127102559,
+      "nodes": [
+        1407526604,
+        1407526598,
+        1407526600,
+        1407526596,
+        1407526601,
+        2109164419,
+        1407526606,
+        1407526607,
+        4638128372,
+        7249581936
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 127102725,
+      "nodes": [
+        1407526604,
+        1407528373,
+        2975908978,
+        1407528377,
+        1407528375,
+        1407528379,
+        1407528381,
+        5465452796,
+        1407528383,
+        1407528385,
+        2116040507,
+        1407528387,
+        1407528389,
+        7125113027,
+        7106689469,
+        7125113022,
+        1407528392,
+        1407528394,
+        1407528396,
+        9037730200
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "no",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 191640288,
+      "nodes": [
+        2022218323,
+        1615922210
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "layer": "-1",
+        "ref": "TV-7048",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 296948415,
+      "nodes": [
+        2098901488,
+        1407526608,
+        1407526597,
+        1407526599,
+        9241006870,
+        1407526604
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 383281513,
+      "nodes": [
+        1407351487,
+        1407351483,
+        3865147551
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Avinguda de Catalunya",
+        "name:ca": "Avinguda de Catalunya",
+        "oneway": "no",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 383281549,
+      "nodes": [
+        3865148465,
+        3865148463,
+        3865148461,
+        3865148462,
+        3865148464,
+        3865148468,
+        3865148475,
+        3865148479,
+        3865148485,
+        3865148492,
+        3865148503,
+        3865148507,
+        3865148511,
+        3865148512,
+        3865148510,
+        3865148506,
+        3865148499,
+        3865148490,
+        3865148481,
+        3865148476,
+        3865148471,
+        3865148465
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 383281556,
+      "nodes": [
+        3865148465,
+        3865147556,
+        3865147551
+      ],
+      "tags": {
+        "highway": "tertiary_link",
+        "name": "Avinguda de Catalunya",
+        "name:ca": "Avinguda de Catalunya",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 383281557,
+      "nodes": [
+        3865148507,
+        3865148523,
+        3865148529
+      ],
+      "tags": {
+        "highway": "tertiary_link",
+        "name": "Avinguda de Catalunya",
+        "name:ca": "Avinguda de Catalunya",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 383281561,
+      "nodes": [
+        3865148529,
+        3865148524,
+        3865148521,
+        3865148519,
+        3865148510
+      ],
+      "tags": {
+        "highway": "tertiary_link",
+        "name": "Avinguda de Catalunya",
+        "name:ca": "Avinguda de Catalunya",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 383281563,
+      "nodes": [
+        3865147551,
+        3865147553,
+        3865147555,
+        3865148458,
+        3865148464
+      ],
+      "tags": {
+        "highway": "tertiary_link",
+        "name": "Avinguda de Catalunya",
+        "name:ca": "Avinguda de Catalunya",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 976647887,
+      "nodes": [
+        9037735117,
+        1407350058,
+        1407350296,
+        3865147532,
+        1407351487
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "no",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1015678939,
+      "nodes": [
+        1407528402,
+        9368590265,
+        9037730200
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1015678940,
+      "nodes": [
+        9037730200,
+        9368590266,
+        9037730215
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1015678941,
+      "nodes": [
+        9037735117,
+        9368590267,
+        9037730214
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1015678942,
+      "nodes": [
+        9368590269,
+        9368590268,
+        9037735117
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1015678943,
+      "nodes": [
+        9037730198,
+        9368590270,
+        9037730210
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1015678944,
+      "nodes": [
+        9037730204,
+        9368590272,
+        9037730198
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera de Reus a Castellvell del Camp i Almoster TP-7048",
+        "oneway": "yes",
+        "ref": "TV-7048"
+      }
+    }
+  ]
+}

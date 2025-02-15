@@ -1,0 +1,1543 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.5 1bd436f1",
+  "osm3s": {
+    "timestamp_osm_base": "2025-02-15T00:09:31Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 619519690,
+      "lat": 41.2939902,
+      "lon": 1.2139467
+    },
+    {
+      "type": "node",
+      "id": 619519691,
+      "lat": 41.2939003,
+      "lon": 1.2144519
+    },
+    {
+      "type": "node",
+      "id": 619519692,
+      "lat": 41.2938454,
+      "lon": 1.2150702
+    },
+    {
+      "type": "node",
+      "id": 619519693,
+      "lat": 41.2938454,
+      "lon": 1.2156353
+    },
+    {
+      "type": "node",
+      "id": 619519694,
+      "lat": 41.2938953,
+      "lon": 1.2163134
+    },
+    {
+      "type": "node",
+      "id": 619519695,
+      "lat": 41.2938903,
+      "lon": 1.2169516
+    },
+    {
+      "type": "node",
+      "id": 619519696,
+      "lat": 41.2938404,
+      "lon": 1.2174502
+    },
+    {
+      "type": "node",
+      "id": 619519697,
+      "lat": 41.2936955,
+      "lon": 1.218022
+    },
+    {
+      "type": "node",
+      "id": 619519698,
+      "lat": 41.2934707,
+      "lon": 1.2185206
+    },
+    {
+      "type": "node",
+      "id": 619519699,
+      "lat": 41.2931476,
+      "lon": 1.2190334
+    },
+    {
+      "type": "node",
+      "id": 619519700,
+      "lat": 41.2919978,
+      "lon": 1.2202662
+    },
+    {
+      "type": "node",
+      "id": 619519701,
+      "lat": 41.2917423,
+      "lon": 1.2209569
+    },
+    {
+      "type": "node",
+      "id": 619519702,
+      "lat": 41.2916305,
+      "lon": 1.2217539
+    },
+    {
+      "type": "node",
+      "id": 619519703,
+      "lat": 41.2915758,
+      "lon": 1.2249734
+    },
+    {
+      "type": "node",
+      "id": 619519704,
+      "lat": 41.2914531,
+      "lon": 1.2258288
+    },
+    {
+      "type": "node",
+      "id": 619519705,
+      "lat": 41.2911726,
+      "lon": 1.2264742
+    },
+    {
+      "type": "node",
+      "id": 619519706,
+      "lat": 41.2905562,
+      "lon": 1.2273646
+    },
+    {
+      "type": "node",
+      "id": 619519707,
+      "lat": 41.2903079,
+      "lon": 1.227629
+    },
+    {
+      "type": "node",
+      "id": 619519710,
+      "lat": 41.2923491,
+      "lon": 1.2198092
+    },
+    {
+      "type": "node",
+      "id": 619519713,
+      "lat": 41.2842232,
+      "lon": 1.2409266
+    },
+    {
+      "type": "node",
+      "id": 619519714,
+      "lat": 41.2841577,
+      "lon": 1.2412239
+    },
+    {
+      "type": "node",
+      "id": 619519720,
+      "lat": 41.2815309,
+      "lon": 1.2436467
+    },
+    {
+      "type": "node",
+      "id": 619519725,
+      "lat": 41.2813391,
+      "lon": 1.2437767
+    },
+    {
+      "type": "node",
+      "id": 619519727,
+      "lat": 41.2813016,
+      "lon": 1.2435903
+    },
+    {
+      "type": "node",
+      "id": 619519732,
+      "lat": 41.2837326,
+      "lon": 1.2420555
+    },
+    {
+      "type": "node",
+      "id": 619519733,
+      "lat": 41.283597,
+      "lon": 1.2422888
+    },
+    {
+      "type": "node",
+      "id": 619519734,
+      "lat": 41.2833418,
+      "lon": 1.2428511
+    },
+    {
+      "type": "node",
+      "id": 619519735,
+      "lat": 41.2832319,
+      "lon": 1.2429941
+    },
+    {
+      "type": "node",
+      "id": 619519736,
+      "lat": 41.2829866,
+      "lon": 1.2431807
+    },
+    {
+      "type": "node",
+      "id": 619519737,
+      "lat": 41.2825266,
+      "lon": 1.2433385
+    },
+    {
+      "type": "node",
+      "id": 619519738,
+      "lat": 41.284092,
+      "lon": 1.2415556
+    },
+    {
+      "type": "node",
+      "id": 619519739,
+      "lat": 41.284056,
+      "lon": 1.2416389
+    },
+    {
+      "type": "node",
+      "id": 886148942,
+      "lat": 41.2964558,
+      "lon": 1.2035496,
+      "tags": {
+        "destination": "El Morell",
+        "destination:distance": "14",
+        "destination:ref": "TV-7421",
+        "traffic_sign": "ES:CAT:s300",
+        "turn:destination": "both"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1668546152,
+      "lat": 41.2832884,
+      "lon": 1.2429357
+    },
+    {
+      "type": "node",
+      "id": 1668546168,
+      "lat": 41.2835267,
+      "lon": 1.2424438
+    },
+    {
+      "type": "node",
+      "id": 2126111468,
+      "lat": 41.2842618,
+      "lon": 1.2408256
+    },
+    {
+      "type": "node",
+      "id": 2126111469,
+      "lat": 41.284316,
+      "lon": 1.2407282
+    },
+    {
+      "type": "node",
+      "id": 2126111470,
+      "lat": 41.2853836,
+      "lon": 1.2389384
+    },
+    {
+      "type": "node",
+      "id": 2126111471,
+      "lat": 41.286295,
+      "lon": 1.237604
+    },
+    {
+      "type": "node",
+      "id": 2126111472,
+      "lat": 41.286584,
+      "lon": 1.2371801
+    },
+    {
+      "type": "node",
+      "id": 2126111473,
+      "lat": 41.2867167,
+      "lon": 1.2369485
+    },
+    {
+      "type": "node",
+      "id": 2126111474,
+      "lat": 41.287572,
+      "lon": 1.2349782
+    },
+    {
+      "type": "node",
+      "id": 2991595363,
+      "lat": 41.286005,
+      "lon": 1.2380287
+    },
+    {
+      "type": "node",
+      "id": 2991595429,
+      "lat": 41.2878532,
+      "lon": 1.234332
+    },
+    {
+      "type": "node",
+      "id": 3887270611,
+      "lat": 41.2888769,
+      "lon": 1.2295045
+    },
+    {
+      "type": "node",
+      "id": 3887270612,
+      "lat": 41.2896696,
+      "lon": 1.2280975
+    },
+    {
+      "type": "node",
+      "id": 3887270617,
+      "lat": 41.2894052,
+      "lon": 1.2293308
+    },
+    {
+      "type": "node",
+      "id": 3887270618,
+      "lat": 41.2893712,
+      "lon": 1.2291445
+    },
+    {
+      "type": "node",
+      "id": 3887270624,
+      "lat": 41.2891484,
+      "lon": 1.2296967
+    },
+    {
+      "type": "node",
+      "id": 3887270625,
+      "lat": 41.2893491,
+      "lon": 1.2295478
+    },
+    {
+      "type": "node",
+      "id": 3887270626,
+      "lat": 41.2890276,
+      "lon": 1.2296758
+    },
+    {
+      "type": "node",
+      "id": 3887270627,
+      "lat": 41.2889865,
+      "lon": 1.2289957
+    },
+    {
+      "type": "node",
+      "id": 3887270629,
+      "lat": 41.2891634,
+      "lon": 1.228952
+    },
+    {
+      "type": "node",
+      "id": 3887270630,
+      "lat": 41.2891048,
+      "lon": 1.2308871
+    },
+    {
+      "type": "node",
+      "id": 3887270631,
+      "lat": 41.2894621,
+      "lon": 1.2283172
+    },
+    {
+      "type": "node",
+      "id": 3887270633,
+      "lat": 41.2898901,
+      "lon": 1.2279517
+    },
+    {
+      "type": "node",
+      "id": 3887270634,
+      "lat": 41.2888681,
+      "lon": 1.229165
+    },
+    {
+      "type": "node",
+      "id": 3887270635,
+      "lat": 41.2892867,
+      "lon": 1.229629
+    },
+    {
+      "type": "node",
+      "id": 3887270638,
+      "lat": 41.2888469,
+      "lon": 1.2293945
+    },
+    {
+      "type": "node",
+      "id": 3887270639,
+      "lat": 41.2889172,
+      "lon": 1.2290679
+    },
+    {
+      "type": "node",
+      "id": 3887270641,
+      "lat": 41.2890872,
+      "lon": 1.2296951
+    },
+    {
+      "type": "node",
+      "id": 3887270643,
+      "lat": 41.289069,
+      "lon": 1.2289554
+    },
+    {
+      "type": "node",
+      "id": 3887270645,
+      "lat": 41.2888439,
+      "lon": 1.2292775
+    },
+    {
+      "type": "node",
+      "id": 3887270649,
+      "lat": 41.2893182,
+      "lon": 1.2286186
+    },
+    {
+      "type": "node",
+      "id": 3887270650,
+      "lat": 41.2893287,
+      "lon": 1.2290662
+    },
+    {
+      "type": "node",
+      "id": 3887270651,
+      "lat": 41.28939,
+      "lon": 1.2294452
+    },
+    {
+      "type": "node",
+      "id": 3887270655,
+      "lat": 41.2891139,
+      "lon": 1.2300126
+    },
+    {
+      "type": "node",
+      "id": 3887271060,
+      "lat": 41.2893973,
+      "lon": 1.2292347
+    },
+    {
+      "type": "node",
+      "id": 3887271062,
+      "lat": 41.2892085,
+      "lon": 1.2296807
+    },
+    {
+      "type": "node",
+      "id": 3902589775,
+      "lat": 41.288852,
+      "lon": 1.2318291
+    },
+    {
+      "type": "node",
+      "id": 3902589776,
+      "lat": 41.2887956,
+      "lon": 1.2317558
+    },
+    {
+      "type": "node",
+      "id": 3902589781,
+      "lat": 41.288757,
+      "lon": 1.2316645
+    },
+    {
+      "type": "node",
+      "id": 3902589782,
+      "lat": 41.2887434,
+      "lon": 1.2314578
+    },
+    {
+      "type": "node",
+      "id": 3902589785,
+      "lat": 41.2892785,
+      "lon": 1.2314056
+    },
+    {
+      "type": "node",
+      "id": 3902589786,
+      "lat": 41.2891471,
+      "lon": 1.2312031
+    },
+    {
+      "type": "node",
+      "id": 3902589790,
+      "lat": 41.2892469,
+      "lon": 1.2317378
+    },
+    {
+      "type": "node",
+      "id": 3902589791,
+      "lat": 41.2892837,
+      "lon": 1.2316333
+    },
+    {
+      "type": "node",
+      "id": 3902589792,
+      "lat": 41.2887391,
+      "lon": 1.2315624
+    },
+    {
+      "type": "node",
+      "id": 3902589793,
+      "lat": 41.288895,
+      "lon": 1.2311967
+    },
+    {
+      "type": "node",
+      "id": 3902589794,
+      "lat": 41.288492,
+      "lon": 1.23285
+    },
+    {
+      "type": "node",
+      "id": 3902589797,
+      "lat": 41.2889349,
+      "lon": 1.2318844
+    },
+    {
+      "type": "node",
+      "id": 3902589798,
+      "lat": 41.2889765,
+      "lon": 1.2311635
+    },
+    {
+      "type": "node",
+      "id": 3902589799,
+      "lat": 41.2890642,
+      "lon": 1.2311652
+    },
+    {
+      "type": "node",
+      "id": 3902589800,
+      "lat": 41.2890269,
+      "lon": 1.2319003
+    },
+    {
+      "type": "node",
+      "id": 3902589801,
+      "lat": 41.2891119,
+      "lon": 1.231878
+    },
+    {
+      "type": "node",
+      "id": 3902589802,
+      "lat": 41.2891877,
+      "lon": 1.231822
+    },
+    {
+      "type": "node",
+      "id": 3902589807,
+      "lat": 41.2892478,
+      "lon": 1.2313243
+    },
+    {
+      "type": "node",
+      "id": 3902589811,
+      "lat": 41.2888093,
+      "lon": 1.2321591
+    },
+    {
+      "type": "node",
+      "id": 3902589812,
+      "lat": 41.2888248,
+      "lon": 1.2312613
+    },
+    {
+      "type": "node",
+      "id": 4244960217,
+      "lat": 41.2916985,
+      "lon": 1.221167
+    },
+    {
+      "type": "node",
+      "id": 4321969787,
+      "lat": 41.2889163,
+      "lon": 1.2295772
+    },
+    {
+      "type": "node",
+      "id": 4321969788,
+      "lat": 41.2892007,
+      "lon": 1.2288149
+    },
+    {
+      "type": "node",
+      "id": 4321970889,
+      "lat": 41.2892533,
+      "lon": 1.2289904
+    },
+    {
+      "type": "node",
+      "id": 4321970890,
+      "lat": 41.289392,
+      "lon": 1.2284416
+    },
+    {
+      "type": "node",
+      "id": 4321970891,
+      "lat": 41.28956,
+      "lon": 1.2282005
+    },
+    {
+      "type": "node",
+      "id": 4321970892,
+      "lat": 41.2908834,
+      "lon": 1.2269097
+    },
+    {
+      "type": "node",
+      "id": 4321970893,
+      "lat": 41.2913683,
+      "lon": 1.2260621
+    },
+    {
+      "type": "node",
+      "id": 4321970894,
+      "lat": 41.2915203,
+      "lon": 1.2255411
+    },
+    {
+      "type": "node",
+      "id": 4321970895,
+      "lat": 41.2918767,
+      "lon": 1.2205216
+    },
+    {
+      "type": "node",
+      "id": 5563268488,
+      "lat": 41.2889675,
+      "lon": 1.2296354
+    },
+    {
+      "type": "node",
+      "id": 6026855921,
+      "lat": 41.289427,
+      "lon": 1.2283796
+    },
+    {
+      "type": "node",
+      "id": 7594301962,
+      "lat": 41.2944191,
+      "lon": 1.2121379
+    },
+    {
+      "type": "node",
+      "id": 7964013700,
+      "lat": 41.2938909,
+      "lon": 1.2145574
+    },
+    {
+      "type": "node",
+      "id": 8157504879,
+      "lat": 41.2952576,
+      "lon": 1.2086023
+    },
+    {
+      "type": "node",
+      "id": 8895081572,
+      "lat": 41.2828398,
+      "lon": 1.2432504
+    },
+    {
+      "type": "node",
+      "id": 8895081573,
+      "lat": 41.2830897,
+      "lon": 1.2431215
+    },
+    {
+      "type": "node",
+      "id": 8895081574,
+      "lat": 41.283163,
+      "lon": 1.2430663
+    },
+    {
+      "type": "node",
+      "id": 8895081576,
+      "lat": 41.2838247,
+      "lon": 1.2419371
+    },
+    {
+      "type": "node",
+      "id": 8895081579,
+      "lat": 41.2841992,
+      "lon": 1.2410167
+    },
+    {
+      "type": "node",
+      "id": 8895081581,
+      "lat": 41.2840247,
+      "lon": 1.2416914
+    },
+    {
+      "type": "node",
+      "id": 8895081582,
+      "lat": 41.2839495,
+      "lon": 1.2417886,
+      "tags": {
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8895081583,
+      "lat": 41.2841149,
+      "lon": 1.241452
+    },
+    {
+      "type": "node",
+      "id": 11255078598,
+      "lat": 41.291616,
+      "lon": 1.2226056
+    },
+    {
+      "type": "node",
+      "id": 11281753726,
+      "lat": 41.2891961,
+      "lon": 1.2297241,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11281753728,
+      "lat": 41.2891348,
+      "lon": 1.2288852,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11281753730,
+      "lat": 41.2887726,
+      "lon": 1.2313511
+    },
+    {
+      "type": "node",
+      "id": 11281753731,
+      "lat": 41.2892946,
+      "lon": 1.2315189
+    },
+    {
+      "type": "node",
+      "id": 11281753732,
+      "lat": 41.2892031,
+      "lon": 1.2312554
+    },
+    {
+      "type": "node",
+      "id": 11281753733,
+      "lat": 41.2889755,
+      "lon": 1.2319614,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11281753734,
+      "lat": 41.2887544,
+      "lon": 1.2316497
+    },
+    {
+      "type": "node",
+      "id": 11281753754,
+      "lat": 41.2892231,
+      "lon": 1.2317716
+    },
+    {
+      "type": "node",
+      "id": 11281774379,
+      "lat": 41.2886329,
+      "lon": 1.2325432
+    },
+    {
+      "type": "node",
+      "id": 11876699591,
+      "lat": 41.2813576,
+      "lon": 1.2436041,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12192673524,
+      "lat": 41.2835706,
+      "lon": 1.242347,
+      "tags": {
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12192673527,
+      "lat": 41.2814467,
+      "lon": 1.2437038,
+      "tags": {
+        "crossing:signals": "no",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12192673528,
+      "lat": 41.2814329,
+      "lon": 1.2436226,
+      "tags": {
+        "crossing:signals": "no",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12192673532,
+      "lat": 41.2841272,
+      "lon": 1.2413863,
+      "tags": {
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12484785394,
+      "lat": 41.2836454,
+      "lon": 1.2421584
+    },
+    {
+      "type": "way",
+      "id": 48834673,
+      "nodes": [
+        619519725,
+        12192673527,
+        619519720
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "50",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "yes",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580573,
+      "nodes": [
+        619519736,
+        8895081572,
+        619519737
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580574,
+      "nodes": [
+        619519733,
+        12192673524,
+        1668546168
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580575,
+      "nodes": [
+        619519739,
+        8895081581,
+        8895081582,
+        8895081576,
+        619519732
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580576,
+      "nodes": [
+        619519713,
+        8895081579,
+        619519714
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580577,
+      "nodes": [
+        619519732,
+        12484785394,
+        619519733
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580578,
+      "nodes": [
+        619519734,
+        1668546152
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580579,
+      "nodes": [
+        619519738,
+        619519739
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580582,
+      "nodes": [
+        1668546168,
+        619519734
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580583,
+      "nodes": [
+        619519737,
+        619519720
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580585,
+      "nodes": [
+        619519714,
+        12192673532,
+        8895081583,
+        619519738
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201580586,
+      "nodes": [
+        1668546152,
+        619519735,
+        8895081574,
+        8895081573,
+        619519736
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 222483874,
+      "nodes": [
+        886148942,
+        8157504879,
+        7594301962,
+        619519690,
+        619519691,
+        7964013700,
+        619519692,
+        619519693,
+        619519694,
+        619519695,
+        619519696,
+        619519697,
+        619519698,
+        619519699,
+        619519710,
+        619519700,
+        4321970895,
+        619519701,
+        4244960217,
+        619519702,
+        11255078598,
+        619519703,
+        4321970894,
+        619519704,
+        4321970893,
+        619519705,
+        4321970892,
+        619519706,
+        619519707,
+        3887270633,
+        3887270612,
+        4321970891,
+        3887270631,
+        6026855921,
+        4321970890,
+        3887270649
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "oneway": "no",
+        "ref": "T-742",
+        "surface": "asphalt",
+        "width": "5.5"
+      }
+    },
+    {
+      "type": "way",
+      "id": 385377386,
+      "nodes": [
+        3887270649,
+        4321969788,
+        11281753728,
+        3887270643
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "40",
+        "oneway": "yes",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 385377388,
+      "nodes": [
+        3887270650,
+        3887270649
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 385377403,
+      "nodes": [
+        3887270643,
+        3887270627,
+        3887270639,
+        3887270634,
+        3887270645,
+        3887270638,
+        3887270611
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 385377409,
+      "nodes": [
+        3887270655,
+        3887270630
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 385377410,
+      "nodes": [
+        3887270626,
+        3887270655
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "40",
+        "oneway": "yes",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 386901855,
+      "nodes": [
+        3902589775,
+        3902589811
+      ],
+      "tags": {
+        "highway": "secondary",
+        "oneway": "yes",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 386901856,
+      "nodes": [
+        3887270630,
+        3902589798
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "40",
+        "oneway": "yes",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 386901860,
+      "nodes": [
+        3887270655,
+        11281753726,
+        3887271062
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "40",
+        "oneway": "yes",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 386901862,
+      "nodes": [
+        3902589811,
+        11281753733,
+        3902589800
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "40",
+        "oneway": "yes",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 386901864,
+      "nodes": [
+        3902589798,
+        3902589793,
+        3902589812,
+        11281753730,
+        3902589782
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 386901866,
+      "nodes": [
+        3902589811,
+        11281774379,
+        3902589794,
+        2991595429,
+        2126111474,
+        2126111473,
+        2126111472,
+        2126111471,
+        2991595363,
+        2126111470,
+        2126111469,
+        2126111468,
+        619519713
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "no",
+        "ref": "T-742",
+        "surface": "asphalt",
+        "width": "5.5"
+      }
+    },
+    {
+      "type": "way",
+      "id": 386901871,
+      "nodes": [
+        3902589786,
+        3887270630
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "40",
+        "oneway": "yes",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 859386514,
+      "nodes": [
+        619519720,
+        12192673528,
+        11876699591,
+        619519727
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "40",
+        "name": "Carretera de Picamoixons",
+        "name:ca": "Carretera de Picamoixons",
+        "oneway": "yes",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188305,
+      "nodes": [
+        3902589782,
+        3902589792,
+        11281753734
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188306,
+      "nodes": [
+        3902589775,
+        3902589797,
+        3902589800
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188307,
+      "nodes": [
+        3902589800,
+        3902589801,
+        3902589802,
+        11281753754
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188308,
+      "nodes": [
+        11281753754,
+        3902589790,
+        3902589791,
+        11281753731,
+        3902589785
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188309,
+      "nodes": [
+        3902589785,
+        3902589807,
+        11281753732,
+        3902589786
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188310,
+      "nodes": [
+        11281753734,
+        3902589781,
+        3902589776,
+        3902589775
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188311,
+      "nodes": [
+        3902589786,
+        3902589799,
+        3902589798
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188312,
+      "nodes": [
+        3887270617,
+        3887271060,
+        3887270618,
+        3887270650
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188313,
+      "nodes": [
+        3887270626,
+        3887270641,
+        3887270624,
+        3887271062
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188314,
+      "nodes": [
+        3887270611,
+        4321969787,
+        5563268488,
+        3887270626
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188315,
+      "nodes": [
+        3887271062,
+        3887270635,
+        3887270625,
+        3887270651,
+        3887270617
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188316,
+      "nodes": [
+        3887270650,
+        4321970889,
+        3887270629,
+        3887270643
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "ref": "T-742",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}

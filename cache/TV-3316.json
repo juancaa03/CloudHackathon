@@ -1,0 +1,750 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.5 1bd436f1",
+  "osm3s": {
+    "timestamp_osm_base": "2025-02-15T00:05:32Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 603822738,
+      "lat": 40.5288859,
+      "lon": 0.5005533
+    },
+    {
+      "type": "node",
+      "id": 603822743,
+      "lat": 40.5282302,
+      "lon": 0.5026875
+    },
+    {
+      "type": "node",
+      "id": 603822749,
+      "lat": 40.5266318,
+      "lon": 0.5051716
+    },
+    {
+      "type": "node",
+      "id": 648513201,
+      "lat": 40.5414755,
+      "lon": 0.4866299
+    },
+    {
+      "type": "node",
+      "id": 827320870,
+      "lat": 40.5382497,
+      "lon": 0.4901412
+    },
+    {
+      "type": "node",
+      "id": 1342440089,
+      "lat": 40.5263994,
+      "lon": 0.5057197
+    },
+    {
+      "type": "node",
+      "id": 1342440090,
+      "lat": 40.5264629,
+      "lon": 0.5054997
+    },
+    {
+      "type": "node",
+      "id": 1342440091,
+      "lat": 40.5265199,
+      "lon": 0.505368
+    },
+    {
+      "type": "node",
+      "id": 1342440094,
+      "lat": 40.5283269,
+      "lon": 0.5024943
+    },
+    {
+      "type": "node",
+      "id": 1342440095,
+      "lat": 40.5284092,
+      "lon": 0.502274
+    },
+    {
+      "type": "node",
+      "id": 1342440096,
+      "lat": 40.5289558,
+      "lon": 0.5003434
+    },
+    {
+      "type": "node",
+      "id": 1342440098,
+      "lat": 40.529047,
+      "lon": 0.5001412
+    },
+    {
+      "type": "node",
+      "id": 1342440099,
+      "lat": 40.5291825,
+      "lon": 0.4999484
+    },
+    {
+      "type": "node",
+      "id": 1342440101,
+      "lat": 40.5303343,
+      "lon": 0.4985842
+    },
+    {
+      "type": "node",
+      "id": 1342440102,
+      "lat": 40.5304708,
+      "lon": 0.498441
+    },
+    {
+      "type": "node",
+      "id": 1342440103,
+      "lat": 40.5307742,
+      "lon": 0.4981431
+    },
+    {
+      "type": "node",
+      "id": 1342440105,
+      "lat": 40.5311188,
+      "lon": 0.4977967
+    },
+    {
+      "type": "node",
+      "id": 1342440107,
+      "lat": 40.532111,
+      "lon": 0.4966536
+    },
+    {
+      "type": "node",
+      "id": 1342440108,
+      "lat": 40.5323096,
+      "lon": 0.4964496
+    },
+    {
+      "type": "node",
+      "id": 1342440109,
+      "lat": 40.5328678,
+      "lon": 0.4959171
+    },
+    {
+      "type": "node",
+      "id": 1342440110,
+      "lat": 40.533044,
+      "lon": 0.4957259
+    },
+    {
+      "type": "node",
+      "id": 1342440112,
+      "lat": 40.533856,
+      "lon": 0.4947361
+    },
+    {
+      "type": "node",
+      "id": 1342440113,
+      "lat": 40.5355401,
+      "lon": 0.4930105
+    },
+    {
+      "type": "node",
+      "id": 1342440117,
+      "lat": 40.53823,
+      "lon": 0.4901551
+    },
+    {
+      "type": "node",
+      "id": 1342440123,
+      "lat": 40.5394989,
+      "lon": 0.4887196
+    },
+    {
+      "type": "node",
+      "id": 1342440131,
+      "lat": 40.5407645,
+      "lon": 0.4873592
+    },
+    {
+      "type": "node",
+      "id": 1342440132,
+      "lat": 40.5415847,
+      "lon": 0.4864329
+    },
+    {
+      "type": "node",
+      "id": 1342440134,
+      "lat": 40.5416285,
+      "lon": 0.4865316
+    },
+    {
+      "type": "node",
+      "id": 2391790032,
+      "lat": 40.5263158,
+      "lon": 0.5060077
+    },
+    {
+      "type": "node",
+      "id": 2391790036,
+      "lat": 40.5263265,
+      "lon": 0.5059312,
+      "tags": {
+        "highway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2391790040,
+      "lat": 40.5263494,
+      "lon": 0.5058563
+    },
+    {
+      "type": "node",
+      "id": 2391790051,
+      "lat": 40.5263737,
+      "lon": 0.5058215
+    },
+    {
+      "type": "node",
+      "id": 2391790052,
+      "lat": 40.5263844,
+      "lon": 0.50588
+    },
+    {
+      "type": "node",
+      "id": 2391790055,
+      "lat": 40.5264105,
+      "lon": 0.5060218
+    },
+    {
+      "type": "node",
+      "id": 2955074704,
+      "lat": 40.5267825,
+      "lon": 0.5049361
+    },
+    {
+      "type": "node",
+      "id": 2955074712,
+      "lat": 40.5270096,
+      "lon": 0.5045857
+    },
+    {
+      "type": "node",
+      "id": 2955113974,
+      "lat": 40.528142,
+      "lon": 0.5028352
+    },
+    {
+      "type": "node",
+      "id": 2955114003,
+      "lat": 40.5284469,
+      "lon": 0.5021423
+    },
+    {
+      "type": "node",
+      "id": 2955114021,
+      "lat": 40.5286432,
+      "lon": 0.5014443
+    },
+    {
+      "type": "node",
+      "id": 2955139829,
+      "lat": 40.5286564,
+      "lon": 0.5013957
+    },
+    {
+      "type": "node",
+      "id": 2955139832,
+      "lat": 40.5286763,
+      "lon": 0.5013228
+    },
+    {
+      "type": "node",
+      "id": 3032242553,
+      "lat": 40.5322212,
+      "lon": 0.4965318
+    },
+    {
+      "type": "node",
+      "id": 3032242686,
+      "lat": 40.5342639,
+      "lon": 0.4943182
+    },
+    {
+      "type": "node",
+      "id": 3032300508,
+      "lat": 40.5363234,
+      "lon": 0.492179
+    },
+    {
+      "type": "node",
+      "id": 3032300517,
+      "lat": 40.5363945,
+      "lon": 0.4921035
+    },
+    {
+      "type": "node",
+      "id": 3033535395,
+      "lat": 40.5274249,
+      "lon": 0.5039433
+    },
+    {
+      "type": "node",
+      "id": 3033535398,
+      "lat": 40.527617,
+      "lon": 0.503647
+    },
+    {
+      "type": "node",
+      "id": 3033654963,
+      "lat": 40.5296109,
+      "lon": 0.4994348
+    },
+    {
+      "type": "node",
+      "id": 3035007410,
+      "lat": 40.5368151,
+      "lon": 0.491657
+    },
+    {
+      "type": "node",
+      "id": 3035009252,
+      "lat": 40.5377005,
+      "lon": 0.4907172
+    },
+    {
+      "type": "node",
+      "id": 3035009253,
+      "lat": 40.5377367,
+      "lon": 0.4906788
+    },
+    {
+      "type": "node",
+      "id": 3036138927,
+      "lat": 40.5393973,
+      "lon": 0.4888352
+    },
+    {
+      "type": "node",
+      "id": 3036156948,
+      "lat": 40.5396554,
+      "lon": 0.4885514
+    },
+    {
+      "type": "node",
+      "id": 3036156985,
+      "lat": 40.5400327,
+      "lon": 0.4881458
+    },
+    {
+      "type": "node",
+      "id": 3036156986,
+      "lat": 40.5400664,
+      "lon": 0.4881096
+    },
+    {
+      "type": "node",
+      "id": 3036943319,
+      "lat": 40.5413024,
+      "lon": 0.4868085
+    },
+    {
+      "type": "node",
+      "id": 3036948445,
+      "lat": 40.5415731,
+      "lon": 0.4865662,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "side": "right",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7410465745,
+      "lat": 40.5265454,
+      "lon": 0.5053161
+    },
+    {
+      "type": "node",
+      "id": 7410465748,
+      "lat": 40.5291452,
+      "lon": 0.4999923
+    },
+    {
+      "type": "node",
+      "id": 7410465752,
+      "lat": 40.5282793,
+      "lon": 0.502593
+    },
+    {
+      "type": "node",
+      "id": 7410465754,
+      "lat": 40.5310005,
+      "lon": 0.4979178
+    },
+    {
+      "type": "node",
+      "id": 7410465758,
+      "lat": 40.5289835,
+      "lon": 0.5002764
+    },
+    {
+      "type": "node",
+      "id": 7410465762,
+      "lat": 40.5315494,
+      "lon": 0.4973072
+    },
+    {
+      "type": "node",
+      "id": 7410465765,
+      "lat": 40.5290734,
+      "lon": 0.5000954
+    },
+    {
+      "type": "node",
+      "id": 7410465769,
+      "lat": 40.526445,
+      "lon": 0.5055522
+    },
+    {
+      "type": "node",
+      "id": 7410465771,
+      "lat": 40.5309256,
+      "lon": 0.4979937
+    },
+    {
+      "type": "node",
+      "id": 7410465775,
+      "lat": 40.5290099,
+      "lon": 0.5002156
+    },
+    {
+      "type": "node",
+      "id": 7410465779,
+      "lat": 40.5314142,
+      "lon": 0.4974653
+    },
+    {
+      "type": "node",
+      "id": 7410465782,
+      "lat": 40.5301725,
+      "lon": 0.4987665
+    },
+    {
+      "type": "node",
+      "id": 7410480286,
+      "lat": 40.5264864,
+      "lon": 0.5054373
+    },
+    {
+      "type": "node",
+      "id": 7410480289,
+      "lat": 40.5291083,
+      "lon": 0.5000447
+    },
+    {
+      "type": "node",
+      "id": 7410480293,
+      "lat": 40.5283704,
+      "lon": 0.5023872
+    },
+    {
+      "type": "node",
+      "id": 7410480299,
+      "lat": 40.5302441,
+      "lon": 0.4986842
+    },
+    {
+      "type": "way",
+      "id": 50841837,
+      "nodes": [
+        3033654963,
+        7410465782,
+        7410480299,
+        1342440101,
+        1342440102,
+        1342440103,
+        7410465771,
+        7410465754,
+        1342440105,
+        7410465779,
+        7410465762,
+        1342440107,
+        3032242553,
+        1342440108,
+        1342440109,
+        1342440110,
+        1342440112,
+        3032242686,
+        1342440113,
+        3032300508,
+        3032300517,
+        3035007410,
+        3035009252,
+        3035009253,
+        1342440117,
+        827320870,
+        3036138927,
+        1342440123,
+        3036156948,
+        3036156985,
+        3036156986,
+        1342440131,
+        3036943319
+      ],
+      "tags": {
+        "change:lanes:backward": "yes",
+        "change:lanes:forward": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "noname": "yes",
+        "oneway": "no",
+        "overtaking": "yes",
+        "ref": "TV-3316",
+        "width": "6"
+      }
+    },
+    {
+      "type": "way",
+      "id": 119486349,
+      "nodes": [
+        1342440132,
+        648513201
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "noname": "yes",
+        "oneway": "yes",
+        "ref": "TV-3316"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121250495,
+      "nodes": [
+        648513201,
+        3036948445,
+        1342440134
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "noname": "yes",
+        "oneway": "yes",
+        "ref": "TV-3316"
+      }
+    },
+    {
+      "type": "way",
+      "id": 230722297,
+      "nodes": [
+        2391790055,
+        2391790052,
+        2391790051
+      ],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "tertiary_link",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "TV-3316",
+        "source": "PNOA; datos oficiales",
+        "surface": "asphalt",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 230722298,
+      "nodes": [
+        2391790051,
+        2391790040,
+        2391790036,
+        2391790032
+      ],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "tertiary_link",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "TV-3316",
+        "source": "PNOA; datos oficiales",
+        "surface": "asphalt",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299362959,
+      "nodes": [
+        603822743,
+        7410465752,
+        1342440094,
+        7410480293,
+        1342440095
+      ],
+      "tags": {
+        "change:lanes:backward": "yes",
+        "change:lanes:forward": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "noname": "yes",
+        "oneway": "no",
+        "overtaking": "yes",
+        "ref": "TV-3316",
+        "width": "6"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299362960,
+      "nodes": [
+        3033535398,
+        2955113974,
+        603822743
+      ],
+      "tags": {
+        "change:lanes:backward": "yes",
+        "change:lanes:forward": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "noname": "yes",
+        "oneway": "no",
+        "overtaking": "backward",
+        "ref": "TV-3316",
+        "width": "6"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299362962,
+      "nodes": [
+        1342440095,
+        2955114003,
+        2955114021,
+        2955139829
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "noname": "yes",
+        "oneway": "no",
+        "overtaking": "forward",
+        "ref": "TV-3316",
+        "width": "6"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299362964,
+      "nodes": [
+        2391790051,
+        1342440089,
+        7410465769,
+        1342440090,
+        7410480286,
+        1342440091,
+        7410465745,
+        603822749,
+        2955074704,
+        2955074712,
+        3033535395,
+        3033535398
+      ],
+      "tags": {
+        "change:lanes:backward": "yes",
+        "change:lanes:forward": "yes",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "noname": "yes",
+        "overtaking": "yes",
+        "ref": "TV-3316",
+        "surface": "asphalt",
+        "width": "6"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299381831,
+      "nodes": [
+        1342440098,
+        7410465765,
+        7410480289,
+        7410465748,
+        1342440099,
+        3033654963
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "noname": "yes",
+        "oneway": "no",
+        "overtaking": "forward",
+        "ref": "TV-3316",
+        "width": "6"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299381832,
+      "nodes": [
+        2955139829,
+        2955139832,
+        603822738,
+        1342440096,
+        7410465758,
+        7410465775,
+        1342440098
+      ],
+      "tags": {
+        "change:lanes:backward": "yes",
+        "change:lanes:forward": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "noname": "yes",
+        "oneway": "no",
+        "overtaking": "yes",
+        "ref": "TV-3316",
+        "width": "6"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299661378,
+      "nodes": [
+        3036943319,
+        648513201
+      ],
+      "tags": {
+        "change:lanes:backward": "no",
+        "change:lanes:forward": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "noname": "yes",
+        "oneway": "no",
+        "overtaking": "no",
+        "ref": "TV-3316",
+        "width": "6"
+      }
+    }
+  ]
+}

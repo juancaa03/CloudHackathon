@@ -1,0 +1,2887 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.5 1bd436f1",
+  "osm3s": {
+    "timestamp_osm_base": "2025-02-15T00:14:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 394702750,
+      "lat": 41.300634,
+      "lon": 1.2595168
+    },
+    {
+      "type": "node",
+      "id": 394702753,
+      "lat": 41.3004913,
+      "lon": 1.2597781
+    },
+    {
+      "type": "node",
+      "id": 1476660326,
+      "lat": 41.2872596,
+      "lon": 1.2517908
+    },
+    {
+      "type": "node",
+      "id": 1476660370,
+      "lat": 41.2874066,
+      "lon": 1.2519347
+    },
+    {
+      "type": "node",
+      "id": 1476660393,
+      "lat": 41.288739,
+      "lon": 1.2530182
+    },
+    {
+      "type": "node",
+      "id": 1476660414,
+      "lat": 41.2892665,
+      "lon": 1.2533736,
+      "tags": {
+        "crossing:markings": "yes",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "flush",
+        "supervised": "Sep-Jun: Mo-Fr 12:50-13:10; SH off; PH off",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1485005512,
+      "lat": 41.287623,
+      "lon": 1.2521461
+    },
+    {
+      "type": "node",
+      "id": 1485005526,
+      "lat": 41.2877727,
+      "lon": 1.2523033
+    },
+    {
+      "type": "node",
+      "id": 1485005535,
+      "lat": 41.2878854,
+      "lon": 1.2524066
+    },
+    {
+      "type": "node",
+      "id": 1485005542,
+      "lat": 41.288095,
+      "lon": 1.2525762
+    },
+    {
+      "type": "node",
+      "id": 1485005598,
+      "lat": 41.2893197,
+      "lon": 1.2535297
+    },
+    {
+      "type": "node",
+      "id": 1485005599,
+      "lat": 41.2893046,
+      "lon": 1.2534491,
+      "tags": {
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1485005601,
+      "lat": 41.2893238,
+      "lon": 1.2535955
+    },
+    {
+      "type": "node",
+      "id": 1485005603,
+      "lat": 41.2893367,
+      "lon": 1.2534803
+    },
+    {
+      "type": "node",
+      "id": 1485005610,
+      "lat": 41.2893387,
+      "lon": 1.2536294
+    },
+    {
+      "type": "node",
+      "id": 1485005615,
+      "lat": 41.289356,
+      "lon": 1.2536506
+    },
+    {
+      "type": "node",
+      "id": 1485005619,
+      "lat": 41.2894115,
+      "lon": 1.2536721
+    },
+    {
+      "type": "node",
+      "id": 1485005627,
+      "lat": 41.2894746,
+      "lon": 1.2534745
+    },
+    {
+      "type": "node",
+      "id": 1485005629,
+      "lat": 41.2894792,
+      "lon": 1.2536244
+    },
+    {
+      "type": "node",
+      "id": 1485005632,
+      "lat": 41.2894948,
+      "lon": 1.2535787
+    },
+    {
+      "type": "node",
+      "id": 1485005634,
+      "lat": 41.2894951,
+      "lon": 1.2535292
+    },
+    {
+      "type": "node",
+      "id": 1485005635,
+      "lat": 41.2895373,
+      "lon": 1.2534647,
+      "tags": {
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1485005640,
+      "lat": 41.2895387,
+      "lon": 1.253543
+    },
+    {
+      "type": "node",
+      "id": 1485005648,
+      "lat": 41.2897729,
+      "lon": 1.2535043
+    },
+    {
+      "type": "node",
+      "id": 1485005659,
+      "lat": 41.2902412,
+      "lon": 1.2534825
+    },
+    {
+      "type": "node",
+      "id": 1485005665,
+      "lat": 41.290346,
+      "lon": 1.2534995
+    },
+    {
+      "type": "node",
+      "id": 1485005675,
+      "lat": 41.2904565,
+      "lon": 1.2535353
+    },
+    {
+      "type": "node",
+      "id": 1485005677,
+      "lat": 41.2904848,
+      "lon": 1.2535485
+    },
+    {
+      "type": "node",
+      "id": 1485005680,
+      "lat": 41.2907724,
+      "lon": 1.2537578,
+      "tags": {
+        "crossing": "zebra",
+        "crossing:island": "no",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "raised",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1485005754,
+      "lat": 41.2917329,
+      "lon": 1.2545618
+    },
+    {
+      "type": "node",
+      "id": 1485005763,
+      "lat": 41.2919776,
+      "lon": 1.2547683,
+      "tags": {
+        "crossing:markings": "zebra",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1485005767,
+      "lat": 41.2920049,
+      "lon": 1.2548193,
+      "tags": {
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1485005769,
+      "lat": 41.292024,
+      "lon": 1.2547721
+    },
+    {
+      "type": "node",
+      "id": 1485005774,
+      "lat": 41.2920428,
+      "lon": 1.2549205
+    },
+    {
+      "type": "node",
+      "id": 1485005775,
+      "lat": 41.2920454,
+      "lon": 1.2548858,
+      "tags": {
+        "bus": "yes",
+        "fixme": "see nearby note",
+        "highway": "bus_stop",
+        "name": "Cementiri",
+        "name:ca": "Cementiri",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1485005776,
+      "lat": 41.2920583,
+      "lon": 1.2550019
+    },
+    {
+      "type": "node",
+      "id": 1485005787,
+      "lat": 41.2920785,
+      "lon": 1.2548169
+    },
+    {
+      "type": "node",
+      "id": 1485005789,
+      "lat": 41.2920809,
+      "lon": 1.2550423
+    },
+    {
+      "type": "node",
+      "id": 1485005792,
+      "lat": 41.2921095,
+      "lon": 1.2547786
+    },
+    {
+      "type": "node",
+      "id": 1485005802,
+      "lat": 41.2921598,
+      "lon": 1.2547556
+    },
+    {
+      "type": "node",
+      "id": 1485005804,
+      "lat": 41.2921724,
+      "lon": 1.255093
+    },
+    {
+      "type": "node",
+      "id": 1485005806,
+      "lat": 41.2921912,
+      "lon": 1.2550913
+    },
+    {
+      "type": "node",
+      "id": 1485005807,
+      "lat": 41.2922123,
+      "lon": 1.2547552
+    },
+    {
+      "type": "node",
+      "id": 1485005816,
+      "lat": 41.2922647,
+      "lon": 1.2547977
+    },
+    {
+      "type": "node",
+      "id": 1485005818,
+      "lat": 41.2922643,
+      "lon": 1.2550428
+    },
+    {
+      "type": "node",
+      "id": 1485005820,
+      "lat": 41.292283,
+      "lon": 1.2550117
+    },
+    {
+      "type": "node",
+      "id": 1485005821,
+      "lat": 41.2923004,
+      "lon": 1.2548869
+    },
+    {
+      "type": "node",
+      "id": 1485005822,
+      "lat": 41.292301,
+      "lon": 1.2549488
+    },
+    {
+      "type": "node",
+      "id": 1485005824,
+      "lat": 41.2923028,
+      "lon": 1.2549205
+    },
+    {
+      "type": "node",
+      "id": 1485005836,
+      "lat": 41.2923093,
+      "lon": 1.2547177
+    },
+    {
+      "type": "node",
+      "id": 1485005840,
+      "lat": 41.2923423,
+      "lon": 1.2547784
+    },
+    {
+      "type": "node",
+      "id": 1485005846,
+      "lat": 41.2923504,
+      "lon": 1.2547233,
+      "tags": {
+        "crossing:markings": "zebra",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1485005879,
+      "lat": 41.292506,
+      "lon": 1.2546318
+    },
+    {
+      "type": "node",
+      "id": 1485005884,
+      "lat": 41.2926193,
+      "lon": 1.2546129
+    },
+    {
+      "type": "node",
+      "id": 1485005901,
+      "lat": 41.2927453,
+      "lon": 1.2546255
+    },
+    {
+      "type": "node",
+      "id": 1485005928,
+      "lat": 41.2928907,
+      "lon": 1.2546764
+    },
+    {
+      "type": "node",
+      "id": 1485005981,
+      "lat": 41.2947646,
+      "lon": 1.2558866
+    },
+    {
+      "type": "node",
+      "id": 1485005983,
+      "lat": 41.2953826,
+      "lon": 1.256283,
+      "tags": {
+        "crossing:markings": "yes",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "raised",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1668546524,
+      "lat": 41.2884362,
+      "lon": 1.2528107
+    },
+    {
+      "type": "node",
+      "id": 1668546668,
+      "lat": 41.2906107,
+      "lon": 1.2536401
+    },
+    {
+      "type": "node",
+      "id": 1668546676,
+      "lat": 41.2908207,
+      "lon": 1.2537986
+    },
+    {
+      "type": "node",
+      "id": 1668546693,
+      "lat": 41.2910955,
+      "lon": 1.2540297
+    },
+    {
+      "type": "node",
+      "id": 1668546718,
+      "lat": 41.2913802,
+      "lon": 1.2542696
+    },
+    {
+      "type": "node",
+      "id": 1668546727,
+      "lat": 41.2915269,
+      "lon": 1.2543896
+    },
+    {
+      "type": "node",
+      "id": 1668546826,
+      "lat": 41.293074,
+      "lon": 1.2547924
+    },
+    {
+      "type": "node",
+      "id": 1668546858,
+      "lat": 41.2936457,
+      "lon": 1.2551605
+    },
+    {
+      "type": "node",
+      "id": 1668546861,
+      "lat": 41.2939729,
+      "lon": 1.255377
+    },
+    {
+      "type": "node",
+      "id": 1668546953,
+      "lat": 41.2954374,
+      "lon": 1.2564592
+    },
+    {
+      "type": "node",
+      "id": 1668546955,
+      "lat": 41.2954441,
+      "lon": 1.2566087
+    },
+    {
+      "type": "node",
+      "id": 1668546966,
+      "lat": 41.2954804,
+      "lon": 1.2567094
+    },
+    {
+      "type": "node",
+      "id": 1668546976,
+      "lat": 41.2955254,
+      "lon": 1.2567549
+    },
+    {
+      "type": "node",
+      "id": 1668546980,
+      "lat": 41.2956242,
+      "lon": 1.2563667
+    },
+    {
+      "type": "node",
+      "id": 1668546993,
+      "lat": 41.2956558,
+      "lon": 1.2567818
+    },
+    {
+      "type": "node",
+      "id": 1668546995,
+      "lat": 41.2957097,
+      "lon": 1.2564219
+    },
+    {
+      "type": "node",
+      "id": 1668546999,
+      "lat": 41.2957648,
+      "lon": 1.2567254
+    },
+    {
+      "type": "node",
+      "id": 1668547002,
+      "lat": 41.2957596,
+      "lon": 1.2564909
+    },
+    {
+      "type": "node",
+      "id": 1668547007,
+      "lat": 41.2959033,
+      "lon": 1.2567383
+    },
+    {
+      "type": "node",
+      "id": 1668547027,
+      "lat": 41.295936,
+      "lon": 1.2566415
+    },
+    {
+      "type": "node",
+      "id": 1668547029,
+      "lat": 41.2959731,
+      "lon": 1.2567746
+    },
+    {
+      "type": "node",
+      "id": 1668547039,
+      "lat": 41.2960265,
+      "lon": 1.2566841
+    },
+    {
+      "type": "node",
+      "id": 1668547044,
+      "lat": 41.2961629,
+      "lon": 1.2568944
+    },
+    {
+      "type": "node",
+      "id": 1668547066,
+      "lat": 41.2962381,
+      "lon": 1.2569456
+    },
+    {
+      "type": "node",
+      "id": 1668547074,
+      "lat": 41.29645,
+      "lon": 1.2569441
+    },
+    {
+      "type": "node",
+      "id": 1668547110,
+      "lat": 41.2968658,
+      "lon": 1.2573496
+    },
+    {
+      "type": "node",
+      "id": 1668547113,
+      "lat": 41.2969483,
+      "lon": 1.2574044,
+      "tags": {
+        "crossing:markings": "zebra",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "incorrect"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1668547114,
+      "lat": 41.296516,
+      "lon": 1.2569844
+    },
+    {
+      "type": "node",
+      "id": 1668547125,
+      "lat": 41.2973195,
+      "lon": 1.2576411
+    },
+    {
+      "type": "node",
+      "id": 1668547139,
+      "lat": 41.2977036,
+      "lon": 1.2578898,
+      "tags": {
+        "crossing:markings": "zebra",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "incorrect"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1668547153,
+      "lat": 41.2982978,
+      "lon": 1.2581587
+    },
+    {
+      "type": "node",
+      "id": 1668547170,
+      "lat": 41.2987637,
+      "lon": 1.2584625
+    },
+    {
+      "type": "node",
+      "id": 1668547215,
+      "lat": 41.2991949,
+      "lon": 1.2587381
+    },
+    {
+      "type": "node",
+      "id": 1668547254,
+      "lat": 41.2995462,
+      "lon": 1.2589645
+    },
+    {
+      "type": "node",
+      "id": 1668547299,
+      "lat": 41.2999003,
+      "lon": 1.2591926
+    },
+    {
+      "type": "node",
+      "id": 1668547320,
+      "lat": 41.300133,
+      "lon": 1.2593442
+    },
+    {
+      "type": "node",
+      "id": 1668547332,
+      "lat": 41.30015,
+      "lon": 1.2594017
+    },
+    {
+      "type": "node",
+      "id": 1787463627,
+      "lat": 41.2921268,
+      "lon": 1.2550818
+    },
+    {
+      "type": "node",
+      "id": 2089304366,
+      "lat": 41.295463,
+      "lon": 1.2566714
+    },
+    {
+      "type": "node",
+      "id": 2089304372,
+      "lat": 41.295431,
+      "lon": 1.2565326
+    },
+    {
+      "type": "node",
+      "id": 2089304381,
+      "lat": 41.2957044,
+      "lon": 1.2567623
+    },
+    {
+      "type": "node",
+      "id": 2089304402,
+      "lat": 41.2956563,
+      "lon": 1.2563821
+    },
+    {
+      "type": "node",
+      "id": 2089304408,
+      "lat": 41.2955789,
+      "lon": 1.2567794
+    },
+    {
+      "type": "node",
+      "id": 2089304427,
+      "lat": 41.2957872,
+      "lon": 1.2565384
+    },
+    {
+      "type": "node",
+      "id": 2089304530,
+      "lat": 41.2958025,
+      "lon": 1.2566391
+    },
+    {
+      "type": "node",
+      "id": 2089304534,
+      "lat": 41.2956836,
+      "lon": 1.2563982
+    },
+    {
+      "type": "node",
+      "id": 2089804755,
+      "lat": 41.2881334,
+      "lon": 1.2526071
+    },
+    {
+      "type": "node",
+      "id": 2090004197,
+      "lat": 41.2955854,
+      "lon": 1.2563573
+    },
+    {
+      "type": "node",
+      "id": 2091376070,
+      "lat": 41.2894316,
+      "lon": 1.2534385
+    },
+    {
+      "type": "node",
+      "id": 2091376071,
+      "lat": 41.2894532,
+      "lon": 1.2536555
+    },
+    {
+      "type": "node",
+      "id": 3592103948,
+      "lat": 41.2918393,
+      "lon": 1.2546545
+    },
+    {
+      "type": "node",
+      "id": 3592103949,
+      "lat": 41.2919545,
+      "lon": 1.2547512
+    },
+    {
+      "type": "node",
+      "id": 4560895782,
+      "lat": 41.287271,
+      "lon": 1.2518056
+    },
+    {
+      "type": "node",
+      "id": 5091900394,
+      "lat": 41.3005373,
+      "lon": 1.2595003
+    },
+    {
+      "type": "node",
+      "id": 5091900395,
+      "lat": 41.3004712,
+      "lon": 1.259497
+    },
+    {
+      "type": "node",
+      "id": 5091900396,
+      "lat": 41.3004177,
+      "lon": 1.2594817
+    },
+    {
+      "type": "node",
+      "id": 5091900397,
+      "lat": 41.3003617,
+      "lon": 1.2594572
+    },
+    {
+      "type": "node",
+      "id": 5091900398,
+      "lat": 41.3003102,
+      "lon": 1.2594309
+    },
+    {
+      "type": "node",
+      "id": 5091900399,
+      "lat": 41.3002504,
+      "lon": 1.2593936
+    },
+    {
+      "type": "node",
+      "id": 5091900410,
+      "lat": 41.300433,
+      "lon": 1.2597053,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5091900411,
+      "lat": 41.3004088,
+      "lon": 1.2596621
+    },
+    {
+      "type": "node",
+      "id": 5091900412,
+      "lat": 41.3003694,
+      "lon": 1.259602
+    },
+    {
+      "type": "node",
+      "id": 5091900413,
+      "lat": 41.3003318,
+      "lon": 1.2595563
+    },
+    {
+      "type": "node",
+      "id": 5091900414,
+      "lat": 41.3002924,
+      "lon": 1.2595164
+    },
+    {
+      "type": "node",
+      "id": 5091900415,
+      "lat": 41.3002478,
+      "lon": 1.2594766
+    },
+    {
+      "type": "node",
+      "id": 5091900416,
+      "lat": 41.3001969,
+      "lon": 1.2594377
+    },
+    {
+      "type": "node",
+      "id": 5091900417,
+      "lat": 41.3001778,
+      "lon": 1.2593445
+    },
+    {
+      "type": "node",
+      "id": 5091979673,
+      "lat": 41.2954976,
+      "lon": 1.2563682
+    },
+    {
+      "type": "node",
+      "id": 5091979674,
+      "lat": 41.295518,
+      "lon": 1.2563606
+    },
+    {
+      "type": "node",
+      "id": 5091979675,
+      "lat": 41.2955555,
+      "lon": 1.2563563
+    },
+    {
+      "type": "node",
+      "id": 5091979676,
+      "lat": 41.2957349,
+      "lon": 1.2564469
+    },
+    {
+      "type": "node",
+      "id": 5091979700,
+      "lat": 41.298155,
+      "lon": 1.2581418
+    },
+    {
+      "type": "node",
+      "id": 5091979701,
+      "lat": 41.2981842,
+      "lon": 1.2581401
+    },
+    {
+      "type": "node",
+      "id": 5091979702,
+      "lat": 41.2982122,
+      "lon": 1.2581452
+    },
+    {
+      "type": "node",
+      "id": 5091979703,
+      "lat": 41.2982409,
+      "lon": 1.2581528
+    },
+    {
+      "type": "node",
+      "id": 5091979704,
+      "lat": 41.2982759,
+      "lon": 1.2581697
+    },
+    {
+      "type": "node",
+      "id": 5091979705,
+      "lat": 41.2981811,
+      "lon": 1.2580503,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5091979706,
+      "lat": 41.298211,
+      "lon": 1.2580791
+    },
+    {
+      "type": "node",
+      "id": 5091979707,
+      "lat": 41.2982542,
+      "lon": 1.2581096
+    },
+    {
+      "type": "node",
+      "id": 5091979708,
+      "lat": 41.2982841,
+      "lon": 1.2581308
+    },
+    {
+      "type": "node",
+      "id": 5091979709,
+      "lat": 41.2965431,
+      "lon": 1.2569994
+    },
+    {
+      "type": "node",
+      "id": 5091980075,
+      "lat": 41.2979132,
+      "lon": 1.2580283,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5091980077,
+      "lat": 41.2980653,
+      "lon": 1.2579163
+    },
+    {
+      "type": "node",
+      "id": 5091980086,
+      "lat": 41.2980905,
+      "lon": 1.258157
+    },
+    {
+      "type": "node",
+      "id": 5091980091,
+      "lat": 41.2979559,
+      "lon": 1.2580755
+    },
+    {
+      "type": "node",
+      "id": 5091980100,
+      "lat": 41.2981373,
+      "lon": 1.2579935
+    },
+    {
+      "type": "node",
+      "id": 5091980118,
+      "lat": 41.2985177,
+      "lon": 1.2583019
+    },
+    {
+      "type": "node",
+      "id": 5091980119,
+      "lat": 41.2978662,
+      "lon": 1.2579932
+    },
+    {
+      "type": "node",
+      "id": 5091980120,
+      "lat": 41.2975282,
+      "lon": 1.2577767
+    },
+    {
+      "type": "node",
+      "id": 5091980221,
+      "lat": 41.2971349,
+      "lon": 1.2575209
+    },
+    {
+      "type": "node",
+      "id": 5091980222,
+      "lat": 41.2965508,
+      "lon": 1.2571457
+    },
+    {
+      "type": "node",
+      "id": 5091980223,
+      "lat": 41.2960659,
+      "lon": 1.2568323
+    },
+    {
+      "type": "node",
+      "id": 5091980224,
+      "lat": 41.2979653,
+      "lon": 1.2578538
+    },
+    {
+      "type": "node",
+      "id": 5091980225,
+      "lat": 41.2979335,
+      "lon": 1.2578326
+    },
+    {
+      "type": "node",
+      "id": 5091980226,
+      "lat": 41.2978953,
+      "lon": 1.2578021
+    },
+    {
+      "type": "node",
+      "id": 5091980227,
+      "lat": 41.297861,
+      "lon": 1.2577733
+    },
+    {
+      "type": "node",
+      "id": 5091980228,
+      "lat": 41.2978241,
+      "lon": 1.2577411
+    },
+    {
+      "type": "node",
+      "id": 5091980229,
+      "lat": 41.2977713,
+      "lon": 1.257703,
+      "tags": {
+        "crossing:markings": "zebra",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "incorrect"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5091980230,
+      "lat": 41.2976542,
+      "lon": 1.257626
+    },
+    {
+      "type": "node",
+      "id": 5091980231,
+      "lat": 41.297504,
+      "lon": 1.2575328
+    },
+    {
+      "type": "node",
+      "id": 5091980232,
+      "lat": 41.2973799,
+      "lon": 1.2574515
+    },
+    {
+      "type": "node",
+      "id": 5091980233,
+      "lat": 41.2972851,
+      "lon": 1.257388
+    },
+    {
+      "type": "node",
+      "id": 5091980234,
+      "lat": 41.2971655,
+      "lon": 1.2573126
+    },
+    {
+      "type": "node",
+      "id": 5091980235,
+      "lat": 41.2970789,
+      "lon": 1.2572567
+    },
+    {
+      "type": "node",
+      "id": 5091980236,
+      "lat": 41.2970172,
+      "lon": 1.2572152,
+      "tags": {
+        "crossing:markings": "zebra",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "incorrect"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5091980237,
+      "lat": 41.2969822,
+      "lon": 1.2571889
+    },
+    {
+      "type": "node",
+      "id": 5091980238,
+      "lat": 41.2969504,
+      "lon": 1.2571711
+    },
+    {
+      "type": "node",
+      "id": 5091980239,
+      "lat": 41.2968982,
+      "lon": 1.2571398,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blocs Alt Camp",
+        "name:ca": "Blocs Alt Camp",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5091980240,
+      "lat": 41.2968575,
+      "lon": 1.257122
+    },
+    {
+      "type": "node",
+      "id": 5091980241,
+      "lat": 41.296811,
+      "lon": 1.2571059
+    },
+    {
+      "type": "node",
+      "id": 5091980242,
+      "lat": 41.2967308,
+      "lon": 1.2570796
+    },
+    {
+      "type": "node",
+      "id": 5091980243,
+      "lat": 41.2966602,
+      "lon": 1.2570542
+    },
+    {
+      "type": "node",
+      "id": 5091980244,
+      "lat": 41.2966144,
+      "lon": 1.2570365
+    },
+    {
+      "type": "node",
+      "id": 5091980245,
+      "lat": 41.2965717,
+      "lon": 1.2570153
+    },
+    {
+      "type": "node",
+      "id": 5091980246,
+      "lat": 41.2963643,
+      "lon": 1.2568882
+    },
+    {
+      "type": "node",
+      "id": 5091980247,
+      "lat": 41.2962205,
+      "lon": 1.2567959
+    },
+    {
+      "type": "node",
+      "id": 5091980248,
+      "lat": 41.2960869,
+      "lon": 1.2567137
+    },
+    {
+      "type": "node",
+      "id": 9364557789,
+      "lat": 41.2873703,
+      "lon": 1.2518026
+    },
+    {
+      "type": "node",
+      "id": 9364557792,
+      "lat": 41.2873764,
+      "lon": 1.2518504,
+      "tags": {
+        "direction": "forward",
+        "highway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9364557793,
+      "lat": 41.2873438,
+      "lon": 1.2518829
+    },
+    {
+      "type": "node",
+      "id": 9364557794,
+      "lat": 41.2873853,
+      "lon": 1.251884
+    },
+    {
+      "type": "node",
+      "id": 9364557804,
+      "lat": 41.2874535,
+      "lon": 1.2519777
+    },
+    {
+      "type": "node",
+      "id": 9397525875,
+      "lat": 41.2893793,
+      "lon": 1.2534401
+    },
+    {
+      "type": "node",
+      "id": 9397525876,
+      "lat": 41.2893124,
+      "lon": 1.2534894
+    },
+    {
+      "type": "node",
+      "id": 9397525877,
+      "lat": 41.2893156,
+      "lon": 1.2535199
+    },
+    {
+      "type": "node",
+      "id": 9397525878,
+      "lat": 41.2892919,
+      "lon": 1.2534204
+    },
+    {
+      "type": "node",
+      "id": 9735677859,
+      "lat": 41.2916559,
+      "lon": 1.2544948,
+      "tags": {
+        "crossing": "zebra",
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "raised",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9735677861,
+      "lat": 41.2913244,
+      "lon": 1.2542215,
+      "tags": {
+        "crossing": "zebra",
+        "crossing:island": "no",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "raised",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9735677863,
+      "lat": 41.2910317,
+      "lon": 1.253976,
+      "tags": {
+        "crossing": "zebra",
+        "crossing:island": "no",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "raised",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9736073017,
+      "lat": 41.2915833,
+      "lon": 1.2544356
+    },
+    {
+      "type": "node",
+      "id": 10716508920,
+      "lat": 41.2943216,
+      "lon": 1.2555988
+    },
+    {
+      "type": "node",
+      "id": 10727486339,
+      "lat": 41.2938201,
+      "lon": 1.255274
+    },
+    {
+      "type": "node",
+      "id": 10727486359,
+      "lat": 41.2950224,
+      "lon": 1.2560527
+    },
+    {
+      "type": "node",
+      "id": 11281711513,
+      "lat": 41.2958478,
+      "lon": 1.2565662,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11281711514,
+      "lat": 41.2953974,
+      "lon": 1.2563822,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "traffic_sign": "ES:R1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11281711515,
+      "lat": 41.2979074,
+      "lon": 1.258024
+    },
+    {
+      "type": "node",
+      "id": 12165464902,
+      "lat": 41.2983319,
+      "lon": 1.2581809
+    },
+    {
+      "type": "node",
+      "id": 12165464940,
+      "lat": 41.2958714,
+      "lon": 1.2567295,
+      "tags": {
+        "crossing:markings": "zebra",
+        "crossing:signals": "no",
+        "fixme": "continue",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12165464941,
+      "lat": 41.295908,
+      "lon": 1.2566176,
+      "tags": {
+        "crossing:markings": "zebra",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12165464989,
+      "lat": 41.299703,
+      "lon": 1.2590655,
+      "tags": {
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12165465166,
+      "lat": 41.2986621,
+      "lon": 1.2583961
+    },
+    {
+      "type": "node",
+      "id": 12168977614,
+      "lat": 41.2989024,
+      "lon": 1.2585511,
+      "tags": {
+        "button_operated": "yes",
+        "crossing:island": "no",
+        "crossing:signals": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12168977629,
+      "lat": 41.2954543,
+      "lon": 1.2564071
+    },
+    {
+      "type": "node",
+      "id": 12168977931,
+      "lat": 41.2957874,
+      "lon": 1.2566887
+    },
+    {
+      "type": "node",
+      "id": 12168977932,
+      "lat": 41.295804,
+      "lon": 1.2565881
+    },
+    {
+      "type": "node",
+      "id": 12172336860,
+      "lat": 41.2875541,
+      "lon": 1.2520707,
+      "tags": {
+        "crossing:island": "no",
+        "crossing:markings": "yes",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "flush",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12172336862,
+      "lat": 41.2880502,
+      "lon": 1.2525372,
+      "tags": {
+        "crossing:island": "no",
+        "crossing:markings": "yes",
+        "crossing:signals": "no",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12172336865,
+      "lat": 41.2886746,
+      "lon": 1.252974,
+      "tags": {
+        "crossing:island": "no",
+        "crossing:markings": "yes",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "flush",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12192679320,
+      "lat": 41.2951689,
+      "lon": 1.2561408,
+      "tags": {
+        "crossing:island": "no",
+        "crossing:markings": "yes",
+        "crossing:signals": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12192679348,
+      "lat": 41.293734,
+      "lon": 1.2552174,
+      "tags": {
+        "button_operated": "yes",
+        "crossing:island": "no",
+        "crossing:signals": "yes",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12292772806,
+      "lat": 41.2951004,
+      "lon": 1.2560996
+    },
+    {
+      "type": "node",
+      "id": 12292772807,
+      "lat": 41.2950372,
+      "lon": 1.2560616
+    },
+    {
+      "type": "node",
+      "id": 12294603849,
+      "lat": 41.2987924,
+      "lon": 1.2584808
+    },
+    {
+      "type": "node",
+      "id": 12304181124,
+      "lat": 41.2922885,
+      "lon": 1.2547257,
+      "tags": {
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12479269200,
+      "lat": 41.2922403,
+      "lon": 1.2550587
+    },
+    {
+      "type": "node",
+      "id": 12485382548,
+      "lat": 41.2954778,
+      "lon": 1.2563071
+    },
+    {
+      "type": "node",
+      "id": 12485382549,
+      "lat": 41.2954266,
+      "lon": 1.2562781
+    },
+    {
+      "type": "node",
+      "id": 12486937946,
+      "lat": 41.2944631,
+      "lon": 1.2556907
+    },
+    {
+      "type": "node",
+      "id": 12488735547,
+      "lat": 41.2896806,
+      "lon": 1.2535062
+    },
+    {
+      "type": "node",
+      "id": 12488735548,
+      "lat": 41.2896798,
+      "lon": 1.2534659
+    },
+    {
+      "type": "node",
+      "id": 12488735554,
+      "lat": 41.2896541,
+      "lon": 1.2535143
+    },
+    {
+      "type": "node",
+      "id": 12488735555,
+      "lat": 41.2896529,
+      "lon": 1.2534656
+    },
+    {
+      "type": "node",
+      "id": 12520945047,
+      "lat": 41.2878356,
+      "lon": 1.2523623,
+      "tags": {
+        "bus": "yes",
+        "fixme": "position guesstimated",
+        "highway": "bus_stop",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12520945996,
+      "lat": 41.2893138,
+      "lon": 1.2533661
+    },
+    {
+      "type": "node",
+      "id": 12520946031,
+      "lat": 41.2898472,
+      "lon": 1.2535027,
+      "tags": {
+        "traffic_calming": "bump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12520946034,
+      "lat": 41.2898467,
+      "lon": 1.2534661,
+      "tags": {
+        "traffic_calming": "bump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12520946035,
+      "lat": 41.2897932,
+      "lon": 1.2534665,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pla\u00e7a de la Creu",
+        "name:ca": "Pla\u00e7a de la Creu",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12520946083,
+      "lat": 41.2900672,
+      "lon": 1.2534989
+    },
+    {
+      "type": "node",
+      "id": 12520946088,
+      "lat": 41.2897213,
+      "lon": 1.2534671,
+      "tags": {
+        "crossing": "yes",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12520946089,
+      "lat": 41.289721,
+      "lon": 1.2535052,
+      "tags": {
+        "crossing": "yes",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12520946090,
+      "lat": 41.2900675,
+      "lon": 1.2534643
+    },
+    {
+      "type": "node",
+      "id": 12520946091,
+      "lat": 41.2900801,
+      "lon": 1.2534801
+    },
+    {
+      "type": "node",
+      "id": 12520946227,
+      "lat": 41.291296,
+      "lon": 1.2541964,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Resid\u00e8ncia Ball\u00fas",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12520946228,
+      "lat": 41.2912676,
+      "lon": 1.2541714
+    },
+    {
+      "type": "node",
+      "id": 12520946229,
+      "lat": 41.2938505,
+      "lon": 1.2552945,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blocs Mu\u00f1oz",
+        "name:ca": "Blocs Mu\u00f1oz",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12520946236,
+      "lat": 41.296802,
+      "lon": 1.2573083
+    },
+    {
+      "type": "node",
+      "id": 12520946241,
+      "lat": 41.2966338,
+      "lon": 1.2571994
+    },
+    {
+      "type": "way",
+      "id": 134238836,
+      "nodes": [
+        1476660370,
+        9364557794,
+        9364557792,
+        9364557789
+      ],
+      "tags": {
+        "highway": "tertiary_link",
+        "lanes": "1",
+        "maxspeed:type": "ES:urban",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 134238840,
+      "nodes": [
+        1476660326,
+        4560895782,
+        9364557793,
+        1476660370
+      ],
+      "tags": {
+        "highway": "tertiary_link",
+        "lanes": "1",
+        "maxspeed:type": "ES:urban",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "T-200",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 134238844,
+      "nodes": [
+        9364557804,
+        12172336860,
+        1485005512,
+        1485005526,
+        12520945047,
+        1485005535,
+        12172336862,
+        1485005542,
+        2089804755,
+        1668546524,
+        12172336865,
+        1476660393,
+        1476660414
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "no",
+        "ref": "T-200",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202177,
+      "nodes": [
+        1485005807,
+        1485005802,
+        1485005792
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Pla\u00e7a del Cementiri",
+        "name:ca": "Pla\u00e7a del Cementiri",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202210,
+      "nodes": [
+        1485005792,
+        1485005769,
+        1485005763
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202214,
+      "nodes": [
+        1485005632,
+        1485005640,
+        12488735554,
+        12488735547,
+        12520946089,
+        1485005648,
+        12520946031,
+        12520946083
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202223,
+      "nodes": [
+        12488735548,
+        12488735555,
+        1485005635,
+        1485005627
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202224,
+      "nodes": [
+        1485005763,
+        1485005767,
+        1485005775
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202229,
+      "nodes": [
+        2091376070,
+        12520945996,
+        1476660414
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202231,
+      "nodes": [
+        1485005821,
+        1485005840,
+        1485005846
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202234,
+      "nodes": [
+        1485005846,
+        1485005836,
+        12304181124,
+        1485005807
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202241,
+      "nodes": [
+        1476660414,
+        9397525878,
+        1485005599,
+        9397525876,
+        9397525877,
+        1485005598
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202263,
+      "nodes": [
+        12520946229,
+        1668546861,
+        10716508920,
+        12486937946,
+        1485005981,
+        10727486359,
+        12292772807,
+        12292772806,
+        12192679320,
+        1485005983
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "no",
+        "ref": "T-200",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202265,
+      "nodes": [
+        12520946091,
+        1485005659,
+        1485005665,
+        1485005675,
+        1485005677,
+        1668546668,
+        1485005680,
+        1668546676,
+        9735677863,
+        1668546693,
+        12520946228,
+        12520946227
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "no",
+        "ref": "T-200",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135202273,
+      "nodes": [
+        2091376070,
+        9397525875,
+        1485005603,
+        1485005598
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Pla\u00e7a de la Creu",
+        "name:ca": "Pla\u00e7a de la Creu",
+        "parking:both": "no",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 154303394,
+      "nodes": [
+        1668546999,
+        12165464940,
+        1668547007,
+        1668547029
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 198846326,
+      "nodes": [
+        5091980077,
+        5091980224,
+        5091980225,
+        5091980226,
+        5091980227,
+        5091980228,
+        5091980229,
+        5091980230,
+        5091980231,
+        5091980232,
+        5091980233,
+        5091980234,
+        5091980235,
+        5091980236,
+        5091980237,
+        5091980238,
+        5091980239,
+        5091980240,
+        5091980241,
+        5091980242,
+        5091980243,
+        5091980244,
+        5091980245,
+        5091979709,
+        1668547114,
+        1668547074,
+        5091980246,
+        5091980247,
+        5091980248,
+        1668547039,
+        1668547027,
+        12165464941,
+        11281711513,
+        1668547002
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 198846371,
+      "nodes": [
+        5091979674,
+        5091979673,
+        12168977629,
+        1668546953,
+        2089304372
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "ref": "T-200",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 221525621,
+      "nodes": [
+        12520946236,
+        1668547110,
+        1668547113,
+        5091980221,
+        1668547125,
+        5091980120,
+        1668547139,
+        5091980119,
+        11281711515,
+        5091980075,
+        5091980091
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353433524,
+      "nodes": [
+        3592103948,
+        3592103949
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "1",
+        "location": "bridge",
+        "maxweight:signed": "no",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "no",
+        "ref": "T-200",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353433525,
+      "nodes": [
+        3592103949,
+        1485005763
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "oneway": "no",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 522919864,
+      "nodes": [
+        1668547320,
+        1668547332,
+        5091900416,
+        5091900415,
+        5091900414,
+        5091900413,
+        5091900412,
+        5091900411,
+        5091900410,
+        394702753
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 522931883,
+      "nodes": [
+        5091980086,
+        5091979700,
+        5091979701,
+        5091979702,
+        5091979703,
+        5091979704,
+        1668547153
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 522931904,
+      "nodes": [
+        1668547320,
+        1668547299,
+        12165464989,
+        1668547254,
+        1668547215,
+        12168977614,
+        12294603849
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314731615,
+      "nodes": [
+        5091979674,
+        12485382548,
+        12485382549,
+        1485005983
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1315550823,
+      "nodes": [
+        1485005983,
+        11281711514,
+        2089304372
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1319958384,
+      "nodes": [
+        1668547153,
+        5091979708,
+        5091979707,
+        5091979706,
+        5091979705,
+        5091980100
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1319958385,
+      "nodes": [
+        12165465166,
+        5091980118,
+        12165464902,
+        1668547153
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1319958386,
+      "nodes": [
+        394702750,
+        5091900394,
+        5091900395,
+        5091900396,
+        5091900397,
+        5091900398,
+        5091900399,
+        5091900417,
+        1668547320
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1328885149,
+      "nodes": [
+        12294603849,
+        1668547170,
+        12165465166
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1328904005,
+      "nodes": [
+        1476660370,
+        9364557804
+      ],
+      "tags": {
+        "highway": "tertiary_link",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "no",
+        "ref": "T-200",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188365,
+      "nodes": [
+        2089304372,
+        1668546955,
+        2089304366,
+        1668546966
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "ref": "T-200",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188366,
+      "nodes": [
+        1668546999,
+        12168977931,
+        2089304530,
+        12168977932,
+        2089304427,
+        1668547002
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "ref": "T-200",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188367,
+      "nodes": [
+        1668547002,
+        5091979676,
+        1668546995,
+        2089304534
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "ref": "T-200",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188368,
+      "nodes": [
+        2089304534,
+        2089304402,
+        1668546980,
+        2090004197,
+        5091979675
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "ref": "T-200",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188369,
+      "nodes": [
+        1668546966,
+        1668546976,
+        2089304408,
+        1668546993,
+        2089304381,
+        1668546999
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "ref": "T-200",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188370,
+      "nodes": [
+        5091979675,
+        5091979674
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "ref": "T-200",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188382,
+      "nodes": [
+        12520946035,
+        12520946088,
+        12488735548
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188456,
+      "nodes": [
+        12520946083,
+        12520946091
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188457,
+      "nodes": [
+        12520946091,
+        12520946090
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188473,
+      "nodes": [
+        12520946090,
+        12520946034,
+        12520946035
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188500,
+      "nodes": [
+        12520946227,
+        9735677861,
+        1668546718,
+        1668546727,
+        9736073017,
+        9735677859,
+        1485005754,
+        3592103948
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "no",
+        "ref": "T-200",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188501,
+      "nodes": [
+        1485005775,
+        1485005774,
+        1485005776
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Pla\u00e7a del Cementiri",
+        "name:ca": "Pla\u00e7a del Cementiri",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188502,
+      "nodes": [
+        1485005776,
+        1485005789,
+        1787463627,
+        1485005804,
+        1485005806
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Pla\u00e7a del Cementiri",
+        "name:ca": "Pla\u00e7a del Cementiri",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188503,
+      "nodes": [
+        1485005806,
+        12479269200
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Pla\u00e7a del Cementiri",
+        "name:ca": "Pla\u00e7a del Cementiri",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188504,
+      "nodes": [
+        12479269200,
+        1485005818,
+        1485005820,
+        1485005822
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Pla\u00e7a del Cementiri",
+        "name:ca": "Pla\u00e7a del Cementiri",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188505,
+      "nodes": [
+        1485005822,
+        1485005824,
+        1485005821
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Pla\u00e7a del Cementiri",
+        "name:ca": "Pla\u00e7a del Cementiri",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188506,
+      "nodes": [
+        1485005792,
+        1485005787,
+        1485005775
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Pla\u00e7a del Cementiri",
+        "name:ca": "Pla\u00e7a del Cementiri",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188507,
+      "nodes": [
+        1485005821,
+        1485005816,
+        1485005807
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Pla\u00e7a del Cementiri",
+        "name:ca": "Pla\u00e7a del Cementiri",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188508,
+      "nodes": [
+        10727486339,
+        12520946229
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "no",
+        "ref": "T-200",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188509,
+      "nodes": [
+        1485005846,
+        1485005879,
+        1485005884,
+        1485005901,
+        1485005928,
+        1668546826,
+        1668546858,
+        12192679348,
+        10727486339
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "no",
+        "ref": "T-200",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188510,
+      "nodes": [
+        12520946241,
+        12520946236
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188511,
+      "nodes": [
+        1668547029,
+        5091980223,
+        1668547044,
+        1668547066,
+        5091980222,
+        12520946241
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Carretera del Pla",
+        "name:ca": "Carretera del Pla",
+        "oneway": "yes",
+        "ref": "T-200",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188518,
+      "nodes": [
+        1485005598,
+        1485005601
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Pla\u00e7a de la Creu",
+        "name:ca": "Pla\u00e7a de la Creu",
+        "parking:both": "no",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188519,
+      "nodes": [
+        1485005619,
+        2091376071,
+        1485005629,
+        1485005632
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Pla\u00e7a de la Creu",
+        "name:ca": "Pla\u00e7a de la Creu",
+        "parking:both": "no",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188520,
+      "nodes": [
+        1485005632,
+        1485005634,
+        1485005627
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Pla\u00e7a de la Creu",
+        "name:ca": "Pla\u00e7a de la Creu",
+        "parking:both": "no",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188521,
+      "nodes": [
+        1485005601,
+        1485005610,
+        1485005615,
+        1485005619
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Pla\u00e7a de la Creu",
+        "name:ca": "Pla\u00e7a de la Creu",
+        "parking:both": "no",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353188522,
+      "nodes": [
+        1485005627,
+        2091376070
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "20",
+        "maxspeed:type": "sign",
+        "name": "Pla\u00e7a de la Creu",
+        "name:ca": "Pla\u00e7a de la Creu",
+        "parking:both": "no",
+        "ref": "T-200",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}
