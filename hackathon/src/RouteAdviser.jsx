@@ -82,12 +82,12 @@ export default function RouteAdviser() {
 
   useEffect(() => {
     if (!userLocation || riskZones.length === 0) return;
-    const alertDistance = 100; // Distancia en metros para activar la alerta
+    const alertDistance = 10; // Distancia en metros para activar la alerta
 
     riskZones.forEach(([coord]) => {
       const distance = L.latLng(userLocation).distanceTo(L.latLng(coord));
       if (distance < alertDistance) {
-        const audio = new Audio("/alert-sound.mp3"); // Ruta del archivo de sonido
+        const audio = new Audio("/simple-notification.mp3");
         audio.play();
       }
     });
