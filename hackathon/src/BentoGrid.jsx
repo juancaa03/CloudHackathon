@@ -58,9 +58,9 @@ const BentoGrid = () => {
       </div>
       
       <div className="col-span-2 row-span-1 p-6 rounded-3xl bg-gradient-to-br from-gray-800 via-gray-900 to-gray-950 shadow-md border border-transparent flex flex-col items-center justify-center relative">
-        <h2 className="text-2xl font-bold text-gray-200 mb-2 tracking-wide">📊 Estadísticas Anuales</h2>
-        <p className="text-lg text-gray-400">En 2023 se registraron más de 10,500 accidentes con un 15% de incremento respecto al año anterior.</p>
-        <button onClick={handleButtonClick} className="mt-4 py-2 px-4 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">Ir a Route Adviser</button>
+        <h2 className="text-2xl font-bold text-gray-200 mb-2 tracking-wide">SafeRoute</h2>
+        <p className="text-lg text-gray-400">Únete y conduce de forma segura!</p>
+        <button onClick={handleButtonClick} className="mt-4 py-2 px-4 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white rounded-lg hover:from-purple-600 hover:to-purple-800 transition">Ir a Route Adviser</button>
       </div>
       
       {[ 
