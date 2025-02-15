@@ -1,12 +1,13 @@
 import useMapData from "./useMapData";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { useEffect, useMap } from "react";
+import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { useEffect } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-routing-machine";
 import risk from "./assets/peligro.png";
 import alert from "./assets/alertaamarilla.png";
 import radar from "./assets/radar.png";
+import "./bodyMargin.css"
 
 // Icons for risk, alert, and radar
 const riskIcon = new L.Icon({
@@ -71,7 +72,7 @@ export default function RouteAdviser() {
   const threshold = 10; // Change this value as needed
 
   return (
-    <div className="h-full w-full">
+    <div style={{ height: "100vh", width: "100vw", display: "flex", justifyContent: "center", alignItems: "center" }}>
       <MapContainer center={userLocation} zoom={12} style={{ height: "100%", width: "100%" }}>
         <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}" />
 
@@ -96,7 +97,7 @@ export default function RouteAdviser() {
             <Popup>Radar de velocidad</Popup>
           </Marker>
         ))}
-        <Routing userLocation={userLocation} destination={destination} setPath={setPath} />
+        <Routing userLocation={userLocation} destination={destination} />
       </MapContainer>
     </div>
   );
