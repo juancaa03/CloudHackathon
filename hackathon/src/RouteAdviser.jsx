@@ -98,7 +98,7 @@ export default function RouteAdviser() {
     const randomIndex = Math.floor(Math.random() * riskZones.length);
     // Usa la coordenada de la zona de riesgo seleccionada aleatoriamente
     const riskCoord = riskZones[randomIndex][0];
-    setSimulatedLocation(riskCoord);
+    setSimulatedLocation([riskCoord[0] + 0.0001, riskCoord[1] + 0.0001]);
     console.log("Teletransportado a zona de riesgo:", riskCoord);
   };
 
