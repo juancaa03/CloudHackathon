@@ -130,48 +130,46 @@ def find_closest_node(nodes, target_kp):
 	return best_node
 
 def detect_accident_zones_dbscan(accident_coords, radius_km=1, min_accidents=5):
-    """
-    Uses DBSCAN to group nearby accidents and detect accident-prone zones.
+	"""
+	Uses DBSCAN to group nearby accidents and detect accident-prone zones.
 
-    Parameters:
-        accident_coords (list): List of accident locations as [[lat, lon], ...]
-        radius_km (float): The clustering radius in kilometers.
-        min_accidents (int): Minimum number of accidents to form a high-risk cluster.
+	Parameters:
+		accident_coords (list): List of accident locations as [[lat, lon], ...]
+		radius_km (float): The clustering radius in kilometers.
+		min_accidents (int): Minimum number of accidents to form a high-risk cluster.
 
-    Returns:
-        list: List of cluster centers (each as [lat, lon]) for clusters that meet the threshold.
-    """
-    if not accident_coords:
-        return []
-    
-    # Convert to a NumPy array
-    coords_array = np.array(accident_coords)
-    
-    # Convert coordinates to radians (required by haversine metric)
-    coords_rad = np.radians(coords_array)
-    
-    # Calculate eps in radians: radius_km divided by Earth's radius (6371 km)
-    eps = radius_km / 6371.0  # For a 1 km radius, eps ≈ 0.000157
-    
-    db = DBSCAN(eps=eps, min_samples=min_accidents, metric='haversine').fit(coords_rad)
-    labels = db.labels_
-    
-    unique_labels = set(labels)
-    accident_zones = []
-    accident_counts = []
-    
-    # Compute cluster centers (skip noise points labeled as -1)
-    for label in unique_labels:
-        if label == -1:
-            continue
-        cluster_points = coords_array[labels == label]
-        center = np.mean(cluster_points, axis=0)
-        accident_counts.append(len(cluster_points))
-        accident_zones.append(center.tolist())
-    
-    return accident_zones, accident_counts
+	Returns:
+		list: List of cluster centers (each as [lat, lon]) for clusters that meet the threshold.
+	"""
+	if not accident_coords:
+		return []
+	
+	# Convert to a NumPy array
+	coords_array = np.array(accident_coords)
+	
+	# Convert coordinates to radians (required by haversine metric)
+	coords_rad = np.radians(coords_array)
+	
+	# Calculate eps in radians: radius_km divided by Earth's radius (6371 km)
+	eps = radius_km / 6371.0  # For a 1 km radius, eps ≈ 0.000157
+	
+	db = DBSCAN(eps=eps, min_samples=min_accidents, metric='haversine').fit(coords_rad)
+	labels = db.labels_
+	
+	unique_labels = set(labels)
+	accident_zones = []
+	
+	# Compute cluster centers (skip noise points labeled as -1)
+	for label in unique_labels:
+		if label == -1:
+			continue
+		cluster_points = coords_array[labels == label]
+		center = np.mean(cluster_points, axis=0)
+		accident_zones.append([center.tolist(), len(cluster_points)])
+	
+	return accident_zones
 
-def main():
+def createAccidentCoords():
 	accidentRoads = {}
 	accidentCoords = []
 	accidents = pd.read_json('https://analisi.transparenciacatalunya.cat/resource/rmgc-ncpb.json?$query=SELECT%20%60dat%60%2C%20%60via%60%2C%20%60pk%60%2C%20%60nomdem%60%2C%20%60hor%60%0AWHERE%0A%20%20caseless_contains(%60nomdem%60%2C%20%22Tarragona%22)%0A%20%20AND%20caseless_ne(%60pk%60%2C%20%22999999%22)')
@@ -197,28 +195,37 @@ def main():
 				accidentCoords.append([closest_node['lat'], closest_node['lon']])
 			else:
 				print(f"No suitable node found for KP {kp} km.")
-				
+	return accidentCoords
+
+def createRadarCoords():
 	radarCoords = []
 	radars = pd.read_csv('radares.csv')
 	for index, row in radars.iterrows():
 		lon, lat = transformer.transform(row['X'], row['Y'])
 		if lat > 40.0 and lat < 42.0 and lon > 0.0 and lon < 2.0:
 			radarCoords.append([lat, lon])
-			
-	print("Finished processing radar and accident coordinates!")
+	return radarCoords
+
+def createZoneCoords():
+	zoneCoords = []
 	
-	zoneCoords, accidentCounts = detect_accident_zones_dbscan(accidentCoords, radius_km=0.75, min_accidents=5)
+	zoneCoords = detect_accident_zones_dbscan(createAccidentCoords(), radius_km=0.75, min_accidents=5)
+ 
+	return zoneCoords
+
+def main():
 	
 	tgnMap = folium.Map(location=[41.0, 1.0], tiles="OpenStreetMap", zoom_start=5)
  
-	for item in accidentCoords:
+	for item in createAccidentCoords():
 		folium.Marker(item, icon=folium.Icon(color='red')).add_to(tgnMap)
 	
-	for item in radarCoords:
+	for item in createRadarCoords():
 		folium.Marker(item, icon=folium.Icon(color='gray')).add_to(tgnMap)
-  
-	for ind in range(0, len(zoneCoords)-1):
-		folium.Marker(zoneCoords[ind], icon=folium.Icon(color='blue'), popup=str(accidentCounts[ind])).add_to(tgnMap)
+	
+	zones = createZoneCoords()
+	for ind in range(0, len(zones)-1):
+		folium.Marker(zones[ind][0], icon=folium.Icon(color='blue'), popup=str(zones[ind][1])).add_to(tgnMap)
   
 	tgnMap.save("map.html")
 
