@@ -195,6 +195,7 @@ def createAccidentCoords():
 				accidentCoords.append([closest_node['lat'], closest_node['lon']])
 			else:
 				print(f"No suitable node found for KP {kp} km.")
+	save_list_to_json(accidentCoords, "accidentCoords.json")
 	return accidentCoords
 
 def createRadarCoords():
@@ -204,6 +205,7 @@ def createRadarCoords():
 		lon, lat = transformer.transform(row['X'], row['Y'])
 		if lat > 40.0 and lat < 42.0 and lon > 0.0 and lon < 2.0:
 			radarCoords.append([lat, lon])
+	save_list_to_json(radarCoords, "radarCoords.json")
 	return radarCoords
 
 def createZoneCoords():
@@ -211,7 +213,15 @@ def createZoneCoords():
 	
 	zoneCoords = detect_accident_zones_dbscan(createAccidentCoords(), radius_km=0.75, min_accidents=5)
  
+	save_list_to_json(zoneCoords, "zoneCoords.json")
+ 
 	return zoneCoords
+
+def save_list_to_json(data_list, filename):
+    """Saves a Python list (or any serializable object) to a JSON file."""
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(data_list, f, indent=2)
+    print(f"Saved data to {filename}")
 
 def main():
 	
