@@ -88,7 +88,7 @@ export default function MapView() {
   console.log(riskAccidents)
 
   return (
-    <div style={{ height: "100vh", width: "100vw" }}>
+    <div className="h-full w-full">
       <MapContainer center={userLocation} zoom={17} style={{ height: "100%", width: "100%" }}>
         <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}" />
 
