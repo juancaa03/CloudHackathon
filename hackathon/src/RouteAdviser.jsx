@@ -80,6 +80,19 @@ export default function RouteAdviser() {
     return () => clearInterval(interval);
   }, [destination, userLocation]);
 
+  useEffect(() => {
+    if (!userLocation || riskZones.length === 0) return;
+    const alertDistance = 100; // Distancia en metros para activar la alerta
+
+    riskZones.forEach(([coord]) => {
+      const distance = L.latLng(userLocation).distanceTo(L.latLng(coord));
+      if (distance < alertDistance) {
+        const audio = new Audio("/alert-sound.mp3"); // Ruta del archivo de sonido
+        audio.play();
+      }
+    });
+  }, [userLocation, riskZones]);
+
   if (!userLocation) return <p>Loading location...</p>;
 
   return (
@@ -156,23 +169,7 @@ export default function RouteAdviser() {
               color: "white",
             }}
           />
-          <button
-            onClick={handleSubmit}
-            style={{
-              padding: "10px 15px",
-              backgroundColor: "#007bff",
-              color: "#fff",
-              border: "none",
-              borderRadius: "5px",
-              fontSize: "14px",
-              cursor: "pointer",
-              transition: "background-color 0.3s ease",
-            }}
-            onMouseOver={(e) => e.target.style.backgroundColor = "#0056b3"}
-            onMouseOut={(e) => e.target.style.backgroundColor = "#007bff"}
-          >
-            Actualizar Destino
-          </button>
+          <button onClick={handleSubmit} style={{ padding: "10px 15px", backgroundColor: "#007bff", color: "#fff" }}>Actualizar Destino</button>
         </div>
       </div>
     </div>
